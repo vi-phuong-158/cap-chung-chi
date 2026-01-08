@@ -8,7 +8,8 @@
             "C": "Lựa chọn nhà thầu của đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước",
             "D": "Việc thuê, mua, thuê mua nhà, trụ sở, tài sản gắn liền với đất"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
             "C": "Quy định về hoạt động lựa chọn nhà thầu thực hiện gói thầu, hoạt động lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
             "C": "Gói thầu mua sắm trang thiết bị làm việc sử dụng vốn nhà nước của Văn phòng UBND tỉnh A",
             "D": "Hoạt động mua phần mềm kế toán của hộ kinh doanh cá thể"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
             "C": "Gói thầu quảng cáo trên nền tảng xã hội và phát sóng trên VTV",
             "D": "Gói thầu mua phần mềm kế toán MISA"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
             "C": "Gói thầu mua phần mềm kế toán hỗ trợ doanh nghiệp khởi nghiệp sáng tạo, doanh nghiệp nhỏ do phụ nữ làm chủ",
             "D": "Gói thầu xây dựng trụ sở làm việc của tỉnh"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 6,
@@ -63,7 +68,8 @@
             "C": "Là quá trình lựa chọn đơn vị để thực hiện hợp đồng thông qua các quy trình, thủ tục do pháp luật đấu thầu quy định.",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 7,
@@ -74,7 +80,8 @@
             "C": "Là hoạt động đấu thầu chỉ nhà thầu quốc tế được phép tham dự thầu",
             "D": "Là hoạt động đấu thầu chỉ nhà thầu trong nước được phép tham dự thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 8,
@@ -85,7 +92,8 @@
             "C": "Là giá dự thầu của nhà thầu chưa tính sửa lỗi, hiệu chỉnh sai lệch và giá trị giảm giá (nếu có)",
             "D": "Là giá trị ghi trong hợp đồng giữa chủ đầu tư và nhà thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 9,
@@ -96,7 +104,8 @@
             "C": "Phương án A và B đều đúng",
             "D": "Logistics, bảo hiểm, quảng cáo, nghiệm thu chạy thử, chụp ảnh vệ tinh"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 10,
@@ -107,7 +116,8 @@
             "C": "Sản phẩm, dịch vụ thân thiện môi trường theo quy định của pháp luật về bảo vệ môi trường",
             "D": "Tất cả các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 11,
@@ -118,7 +128,8 @@
             "C": "Nhà thầu trong nước có sử dụng lao động nữ, thương binh, người khuyết tật hoặc người dân tộc thiểu số",
             "D": "Tất cả các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 12,
@@ -129,7 +140,8 @@
             "C": "Thực hiện gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của doanh nghiệp nhà nước",
             "D": "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 13,
@@ -140,7 +152,8 @@
             "C": "Tiếng Anh hoặc tiếng Việt và tiếng Anh",
             "D": "Tiếng Đức hoặc tiếng Anh"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 14,
@@ -151,7 +164,8 @@
             "C": "Tiếng Việt hoặc tiếng Anh",
             "D": "Bắt buộc cả tiếng Việt và tiếng Anh"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 15,
@@ -162,7 +176,8 @@
             "C": "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
             "D": "Gói thầu mua sắm hàng hóa thông dụng đã được nhập khẩu và chào bán tại Việt Nam nhưng hàng hóa đó trong nước không sản xuất được"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 16,
@@ -173,7 +188,8 @@
             "C": "Có cần lưu trữ, trong thời hạn 05 năm kể từ ngày quyết định hủy thầu được ban hành",
             "D": "Có cần lưu trữ, trong thời hạn 03 năm kể từ ngày quyết định hủy thầu được ban hành"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 17,
@@ -184,7 +200,8 @@
             "C": "Chủ đầu tư lưu trữ tối thiểu 05 năm",
             "D": "Tất cả các phương án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 18,
@@ -195,7 +212,8 @@
             "C": "Quy định của pháp luật về lưu trữ",
             "D": "Tất cả phương án trên đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 19,
@@ -206,7 +224,8 @@
             "C": "Khi hoàn trả bảo đảm dự thầu của nhà thầu không được lựa chọn hoặc đăng tải kết quả lựa chọn nhà thầu",
             "D": "Khi ký hợp đồng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 20,
@@ -217,7 +236,8 @@
             "C": "Phương án A và B đều đúng",
             "D": "Phương án A và B đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 21,
@@ -228,7 +248,8 @@
             "C": "Sử dụng theo cơ chế khoán chi",
             "D": "Tất cả các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 22,
@@ -239,7 +260,8 @@
             "C": "Miễn phí",
             "D": "110.000 đồng/1 gói thầu (đã bao gồm thuế giá trị gia tăng)"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 23,
@@ -250,7 +272,8 @@
             "C": "03 năm công tác thuộc một trong các lĩnh vực liên quan đến nội dung pháp lý, kỹ thuật, tài chính của gói thầu",
             "D": "Không có quy định về số năm kinh nghiệm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 24,
@@ -261,7 +284,8 @@
             "C": "Đơn vị A được tự quyết định việc mua sắm trên cơ sở bảo đảm công khai, minh bạch, hiệu quả và trách nhiệm giải trình",
             "D": "Căn cứ theo phân cấp quyết định mua sắm của UBND tỉnh X"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 25,
@@ -272,7 +296,8 @@
             "C": "Trong mọi trường hợp Sở Y tế A không phải thực hiện theo Luật Đấu thầu do đây là nguồn doanh nghiệp trong nước tài trợ",
             "D": "Phải xin ý kiến của UBND tỉnh A để có cơ sở xác định có phải tổ chức lựa chọn nhà thầu theo Luật Đấu thầu hay không"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 26,
@@ -282,7 +307,8 @@
             "B": "Trả lại nguyên trạng cho nhà thầu trong thời hạn 05 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
             "C": "Hồ sơ được lưu trữ theo quy định của Pháp luật về lưu trữ"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 27,
@@ -293,7 +319,8 @@
             "C": "Có thể dẫn tới khiếu nại từ nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 28,
@@ -304,7 +331,8 @@
             "C": "Công ty B sử dụng nhà thầu phụ là công ty tư vấn C, công ty tư vấn C sở hữu 30% cổ phần của công ty A và công ty A là nhà thầu tư vấn thiết kế kỹ thuật cho dự án Y",
             "D": "Công ty A là nhà thầu tư vấn lập hồ sơ mời thầu gói thầu xây lắp X có sở hữu 30% vốn góp của Công ty B"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 29,
@@ -315,7 +343,8 @@
             "C": "Giá trị công việc tối đa dành cho nhà thầu phụ trong hợp đồng phải bao gồm khối lượng công việc dành cho nhà thầu phụ đặc biệt.",
             "D": "Phương án A và C đều đúng."
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 30,
@@ -326,7 +355,8 @@
             "C": "Phê duyệt và phát hành hồ sơ mời thầu bản giấy",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 31,
@@ -337,7 +367,8 @@
             "C": "Gói thầu dịch vụ tư vấn thông dụng, đơn giản có giá không quá 10 tỷ đồng",
             "D": "Gói thầu xây lắp công trình đơn giản đã có dự toán được phê duyệt có giá không quá 15 tỷ đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 32,
@@ -348,7 +379,8 @@
             "C": "Bắt buộc áp dụng hình thức chỉ định thầu",
             "D": "Được áp dụng hình thức chỉ định thầu hoặc chào hàng cạnh tranh hoặc đấu thầu rộng rãi"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 33,
@@ -359,7 +391,8 @@
             "C": "01 tỷ đồng",
             "D": "300 triệu đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 34,
@@ -370,7 +403,8 @@
             "C": "01 tỷ đồng",
             "D": "02 tỷ đồng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 35,
@@ -381,7 +415,8 @@
             "C": "Mua sắm trực tiếp",
             "D": "Đấu thầu qua mạng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 36,
@@ -392,7 +427,8 @@
             "C": "Được áp dụng hình thức chào hàng cạnh tranh hoặc đấu thầu rộng rãi",
             "D": "Được áp dụng hình thức chỉ định thầu hoặc đấu thầu rộng rãi hoặc chào hàng cạnh tranh"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 37,
@@ -403,7 +439,8 @@
             "C": "Giá gói thầu trên 10 tỷ đồng",
             "D": "Giá gói thầu trên 20 tỷ đồng đối với xây lắp, hàng hoá; trên 10 tỷ đồng đối với gói thầu dịch vụ tư vấn, phi tư vấn"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 38,
@@ -414,7 +451,8 @@
             "C": "Chỉ gói thầu dịch vụ phi tư vấn",
             "D": "Gói thầu mua sắm hàng hóa và dịch vụ phi tư vấn"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 39,
@@ -425,7 +463,8 @@
             "C": "Đơn giá các phần việc thuộc gói thầu mua sắm trực tiếp không vượt đơn giá phần việc tương ứng của gói thầu đã ký trước đó thuộc gói thầu tương tự đã ký hợp đồng trước đó, đồng thời, phù hợp với giá thị trường tại thời điểm hoàn thiện hợp đồng.",
             "D": "Chủ đầu tư được áp dụng mua sắm trực tiếp nhiều lần đối với các loại hàng hóa thuộc gói thầu."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 40,
@@ -436,7 +475,8 @@
             "C": "Đặt hàng chỉ được áp dụng cho sản phẩm, dịch vụ công",
             "D": "Đặt hàng chỉ áp dụng đối với nguồn chi thường xuyên ngân sách nhà nước, không được áp dụng đối với nguồn vốn khác"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 41,
@@ -447,7 +487,8 @@
             "C": "Cổng Thông tin điện tử của Bộ, ngành",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 42,
@@ -458,7 +499,8 @@
             "C": "07 ngày làm việc kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành",
             "D": "10 ngày kể từ ngày kế hoạch lựa chọn nhà thầu được ban hành"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 43,
@@ -469,7 +511,8 @@
             "C": "Giám sát hoạt động đấu thầu",
             "D": "Cả 3 phương án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 44,
@@ -480,7 +523,8 @@
             "C": "Được hình thành gói thầu để thực hiện lựa chọn nhà thầu theo một trong hình thức lựa chọn nhà thầu (đấu thầu rộng rãi, chào hàng cạnh tranh, chỉ định thầu) nhưng phải lập kế hoạch lựa chọn nhà thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 45,
@@ -491,7 +535,8 @@
             "C": "Đối với phần việc phải hình thành gói thầu thuê tư vấn để thực hiện nhằm phục vụ công việc giải phóng mặt bằng thì thuộc phần công việc thuộc kế hoạch lựa chọn nhà thầu.",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 46,
@@ -502,7 +547,8 @@
             "C": "Giá hợp đồng",
             "D": "Tất cả phương án đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 47,
@@ -513,7 +559,8 @@
             "C": "Kỹ thuật",
             "D": "Tài chính"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 48,
@@ -524,7 +571,8 @@
             "C": "Phải độc lập với nhà thầu tư vấn lập kế hoạch tổng thể lựa chọn nhà thầu",
             "D": "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 49,
@@ -535,7 +583,8 @@
             "C": "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn lập, thẩm tra, thẩm định hồ sơ thiết kế, dự toán",
             "D": "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 50,
@@ -546,7 +595,8 @@
             "C": "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo kinh tế kỹ thuật trong trường hợp không lập báo cáo nghiên cứu khả thi, không lập thiết kế FEED theo quy định của pháp luật về xây dựng",
             "D": "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 51,
@@ -557,7 +607,8 @@
             "C": "Năng lực tài chính",
             "D": "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 52,
@@ -568,7 +619,8 @@
             "C": "Bảo đảm dự thầu hợp lệ",
             "D": "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 53,
@@ -579,7 +631,8 @@
             "C": "Kết hợp cả hai phương pháp: tiêu chí đạt, không đạt và phương pháp chấm điểm",
             "D": "Phương pháp dựa trên kỹ thuật"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 54,
@@ -590,7 +643,8 @@
             "C": "Số năm thành lập của doanh nghiệp",
             "D": "Năng lực quản lý của doanh nghiệp"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 55,
@@ -601,7 +655,8 @@
             "C": "Doanh thu của nhà thầu",
             "D": "Việc thực hiện nghĩa vụ kê khai thuế, nộp thuế"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 56,
@@ -612,7 +667,8 @@
             "C": "Năng lực tài chính",
             "D": "Có bảo đảm dự thầu hợp lệ"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 57,
@@ -623,7 +679,8 @@
             "C": "Nội dung công việc xây lắp thuộc gói thầu EPC và gói thầu PC",
             "D": "Nội dung công việc xây lắp thuộc gói thầu xây lắp và gói thầu PC"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 58,
@@ -634,7 +691,8 @@
             "C": "Đã thực hiện nghĩa vụ kê khai thuế và nộp thuế",
             "D": "Kinh nghiệm và năng lực nhà thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 59,
@@ -645,7 +703,8 @@
             "C": "Kế hoạch lựa chọn nhà thầu được duyệt",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 60,
@@ -656,7 +715,8 @@
             "C": "Kết hợp giữa kỹ thuật và giá",
             "D": "Giá cố định"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 61,
@@ -667,7 +727,8 @@
             "C": "Phạm vi cung cấp, yêu cầu về kỹ thuật",
             "D": "Biên bản hoàn thiện hợp đồng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 62,
@@ -678,7 +739,8 @@
             "C": "Hàng hóa đặc thù, phức tạp cần gắn với trách nhiệm của nhà sản xuất",
             "D": "Hàng hóa có giá trị lớn"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 63,
@@ -689,7 +751,8 @@
             "C": "Yêu cầu nhà thầu có năng lực tài chính lành mạnh",
             "D": "Yêu cầu nhà thầu phải hoàn thành nghĩa vụ thuế"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 64,
@@ -700,7 +763,8 @@
             "C": "Được nêu xuất xứ cụ thể của một nước bất kỳ nhưng phải kèm theo cụm từ \"hoặc tương đương\"",
             "D": "Không được nêu xuất xứ theo nhóm nước, vùng lãnh thổ"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 65,
@@ -711,7 +775,8 @@
             "C": "Được ủy quyền nhưng phải tạo tài khoản nghiệp vụ cho Giám đốc chi nhánh khi tham dự thầu trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 66,
@@ -722,7 +787,8 @@
             "C": "Trong thông báo mời thương thảo hợp đồng",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 67,
@@ -733,7 +799,8 @@
             "C": "Ngày thực hiện đối chiếu tài liệu",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 68,
@@ -744,7 +811,8 @@
             "C": "Trong thời hạn 05 ngày làm việc sau thời điểm đóng thầu",
             "D": "Không được nộp bổ sung hàng mẫu sau thời điểm đóng thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 69,
@@ -755,7 +823,8 @@
             "C": "50 điểm",
             "D": "Từ 0 đến 49 điểm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 70,
@@ -766,7 +835,8 @@
             "C": "1,5 tỷ đồng",
             "D": "300 triệu đồng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 71,
@@ -777,7 +847,8 @@
             "C": "Lao động phổ thông.",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 72,
@@ -788,7 +859,8 @@
             "C": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu nhưng phải cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu",
             "D": "Yêu cầu nhà thầu bổ sung hàng hóa theo đúng xuất xứ thuộc nhóm nước, vùng lãnh thổ theo yêu cầu hồ sơ mời thầu, không phải đáp ứng cùng ký mã hiệu, nhãn hiệu với hàng hóa nhà thầu đã đề xuất trong hồ sơ dự thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 73,
@@ -799,7 +871,8 @@
             "C": "Được quy định hàng hóa thuộc cùng chủng loại hoặc hàng hóa có cùng mã Chương, mã Nhóm (tương ứng với 4 số đầu tiên của bộ mã) trong Hệ thống mã HS với mã HS của máy điều hòa.",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 74,
@@ -810,7 +883,8 @@
             "C": "Mức độ đáp ứng các yêu cầu về bảo hành, bảo trì (nếu có);",
             "D": "Tất cả đáp án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 75,
@@ -821,7 +895,8 @@
             "C": "Không được quy định uy tín của nhà thầu thông qua việc tham dự thầu trong tiêu chuẩn đánh giá về kỹ thuật",
             "D": "Hợp đồng tương tự được xác định trên cơ sở tương tự cả về tính chất và quy mô (giá trị hợp đồng)"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 76,
@@ -832,7 +907,8 @@
             "C": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND",
             "D": "Nhà thầu đã hoàn thành công trình xây dựng nhà, kết cấu dạng nhà cấp III, có giá trị tối thiểu là 50% x (2X) VND, trong đó phải bao gồm hạng mục hàng rào bảo vệ, nhà bảo vệ"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 77,
@@ -843,7 +919,8 @@
             "C": "Được sử dụng một trong hai phương pháp “đạt”, “không đạt” hoặc chấm điểm",
             "D": "Chỉ cần yêu cầu nhà thầu cam kết đáp ứng yêu cầu về kỹ thuật"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 78,
@@ -854,7 +931,8 @@
             "C": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 05 tỷ đồng",
             "D": "Cung cấp 01 hợp đồng có mã hàng hóa 9035 với giá trị tối thiểu 07 tỷ đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 79,
@@ -865,7 +943,8 @@
             "C": "Có giá trị bằng 50% giá trị theo chu kỳ 01 năm của gói thầu",
             "D": "Có giá trị tối thiểu bằng 50% giá gói thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 80,
@@ -876,7 +955,8 @@
             "C": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ trong danh sách các nhà thầu phụ nêu trong E-HSDT",
             "D": "Nhà thầu được ký kết hợp đồng với các nhà thầu phụ được chủ đầu tư chấp thuận để tham gia thực hiện cung cấp dịch vụ liên quan"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 81,
@@ -887,7 +967,8 @@
             "C": "Hồ sơ dự thầu của một trong hai nhà thầu không được xem xét",
             "D": "Không thuộc hành vi bị cấm, không vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 82,
@@ -898,7 +979,8 @@
             "C": "Tư cách hợp lệ",
             "D": "Năng lực, kinh nghiệm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 83,
@@ -909,7 +991,8 @@
             "C": "Nhà thầu đáp ứng hai phần ba các tiêu chuẩn đánh giá về năng lực và kinh nghiệm trong hồ sơ mời thầu",
             "D": "Nhà thầu đáp ứng các tiêu chuẩn đánh giá về năng lực và kinh nghiệm quan trọng trong hồ sơ mời thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 84,
@@ -920,7 +1003,8 @@
             "C": "Đánh giá đối với tất cả các nhà thầu được đánh giá đạt về kỹ thuật",
             "D": "Không đánh giá về nhân sự chủ chốt và thiết bị chủ yếu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 85,
@@ -931,7 +1015,8 @@
             "C": "Bắt buộc phải đánh giá năng lực, kinh nghiệm của nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 86,
@@ -942,7 +1027,8 @@
             "C": "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu xây lắp áp dụng phương thức một giai đoạn hai túi hồ sơ",
             "D": "Bắt buộc quy định trong hồ sơ mời thầu đối với gói thầu có giá trên 20 tỷ đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 87,
@@ -953,7 +1039,8 @@
             "C": "Giá từng phần thấp nhất, tổng giá đề nghị trúng thầu không vượt giá gói thầu được duyệt, không cần so sánh với tiêu chuẩn, định mức từng mặt hàng",
             "D": "Tất cả phương án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 88,
@@ -964,7 +1051,8 @@
             "C": "Phải bắt buộc cung cấp giấy đăng ký thiết bị kèm theo giấy đăng kiểm, kiểm định theo quy định của pháp luật",
             "D": "Phải bắt buộc cung cấp hợp đồng, hóa đơn mua hàng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 89,
@@ -975,7 +1063,8 @@
             "C": "Do người có thẩm quyền quyết định",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 90,
@@ -986,7 +1075,8 @@
             "C": "Báo cáo người có thẩm quyền xem xét, quyết định",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 91,
@@ -997,7 +1087,8 @@
             "C": "Đánh giá kinh nghiệm thực hiện hợp đồng tương tự của công ty con, không đánh giá kinh nghiệm của công ty mẹ, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu",
             "D": "Đánh giá theo tổng kinh nghiệm thực hiện hợp đồng tương tự của công ty mẹ và công ty con, không phân biệt khối lượng công việc do công ty mẹ, công ty con đảm nhiệm trong gói thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 92,
@@ -1008,7 +1099,8 @@
             "C": "Xét theo các hạng mục công việc có tính chất tương tự nhà thầu đã hoàn thành phần lớn và đáp ứng quy mô theo yêu cầu của hồ sơ mời thầu",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 93,
@@ -1019,7 +1111,8 @@
             "C": "Hàng hóa có 4 số đầu tiên mã HS cùng với mã HS của hàng hóa thuộc gói thầu",
             "D": "Cả 2 phương án B và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 94,
@@ -1030,7 +1123,8 @@
             "C": "Việc đánh giá về doanh thu căn cứ trên phần có giá trị lớn nhất trong tổng số các phần nhà thầu tham dự",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 95,
@@ -1041,7 +1135,8 @@
             "C": "Việc đánh giá về quy mô hợp đồng tương tự căn cứ trên phần có giá trị nhỏ nhất trong tổng số các phần mà nhà thầu tham dự",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 96,
@@ -1052,7 +1147,8 @@
             "C": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
             "D": "Tiếp tục đánh giá E-HSDT, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 97,
@@ -1063,7 +1159,8 @@
             "C": "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
             "D": "Tiếp tục đánh giá hồ sơ dự thầu, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 98,
@@ -1074,7 +1171,8 @@
             "C": "Do chủ đầu tư quyết định đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
             "D": "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 99,
@@ -1085,7 +1183,8 @@
             "C": "Sửa đổi cho phù hợp E-HSDT đã nộp mà không phải nộp lại E-HSDT mới",
             "D": "Nhà thầu không được sửa đổi E-HSDT đã nộp"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 100,
@@ -1096,7 +1195,8 @@
             "C": "Sửa đổi cho phù hợp E-HSDT đã nộp mà không phải nộp lại E-HSDT mới",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 101,
@@ -1107,7 +1207,8 @@
             "C": "Không được tiếp tục đánh giá E-HSDT",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 102,
@@ -1118,7 +1219,8 @@
             "C": "Đơn vị sự nghiệp công lập A tham gia gói thầu do đơn vị sự nghiệp công lập B là chủ đầu tư và cả hai đơn vị đều là đơn vị sự nghiệp do Sở Tài chính tỉnh X trực tiếp quản lý.",
             "D": "Doanh nghiệp C tham gia gói thầu có sử dụng vốn ngân sách nhà nước do đơn vị sự nghiệp công lập A là chủ đầu tư. Đơn vị sự nghiệp công lập A và Doanh nghiệp C đều là đơn vị do Sở X trực tiếp quản lý"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 103,
@@ -1129,7 +1231,8 @@
             "C": "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 104,
@@ -1140,7 +1243,8 @@
             "C": "Nhà thầu C được xét duyệt trúng thầu",
             "D": "Nhà thầu D được xét duyệt trúng thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 105,
@@ -1151,7 +1255,8 @@
             "C": "Chủ đầu tư tạm thời ghi nhận nội dung trong thư giảm giá của nhà thầu và trình Người có thẩm quyền quyết định",
             "D": "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 106,
@@ -1162,7 +1267,8 @@
             "C": "Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
             "D": "Không được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng đối với tất cả các gói thầu, trừ trường hợp nhà thầu tự nguyện giảm giá"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 107,
@@ -1173,7 +1279,8 @@
             "C": "Phương án A và B đều đúng",
             "D": "Phương án A và B đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 108,
@@ -1184,7 +1291,8 @@
             "C": "Được thay đổi nhân sự đã đề xuất trong E-HSDT trong trường hợp do thời gian đánh giá E- HSDT kéo dài hơn so với dự kiến trong kế hoạch lựa chọn nhà thầu hoặc vì lý do bất khả kháng mà các vị trí nhân sự chủ chốt do nhà thầu đã đề xuất không thể tham gia thực hiện hợp đồng.",
             "D": "Phương án B và C đều đúng."
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 109,
@@ -1195,7 +1303,8 @@
             "C": "Tiếp tục đánh giá E-HSDT của nhà thầu, trường hợp nhà thầu xếp thứ nhất, cho phép nhà thầu bổ sung, thay thế hợp đồng tương tự khác.",
             "D": "Đồng thời với việc yêu cầu nhà thầu bổ sung hợp đồng thay thế khác thì chủ đầu tư xem xét, điều chỉnh lại yêu cầu về hợp đồng tương tự trong hồ sơ mời thầu."
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 110,
@@ -1206,7 +1315,8 @@
             "C": "Ký trước khi phát hành hồ sơ mời thầu",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 111,
@@ -1217,7 +1327,8 @@
             "C": "2021, 2022, 2024",
             "D": "2019, 2020, 2021"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 112,
@@ -1228,7 +1339,8 @@
             "C": "Nhà thầu có 3 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ lần lượt là 30 tỷ đồng, 20 tỷ đồng, 10 tỷ đồng",
             "D": "Nhà thầu có 1 công trình xây dựng có loại kết cấu dạng nhà cấp III với giá trị đã hoàn thành toàn bộ là 60 tỷ đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 113,
@@ -1239,7 +1351,8 @@
             "C": "Nhà thầu cung cấp hợp đồng A (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (chưa được nghiệm thu) là 100 triệu đồng; hợp đồng B (chưa hoàn thành, chưa được thanh lý) có giá trị công việc dịch vụ vệ sinh tòa nhà (đã được nghiệm thu) là 400 triệu đồng.",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 114,
@@ -1250,7 +1363,8 @@
             "C": "Nhà thầu cung cấp 02 hợp đồng, trong đó: 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8415 với giá trị 600 triệu đồng và 01 hợp đồng đã thực hiện việc cung cấp mã hàng hóa 8507 với giá trị 01 tỷ đồng",
             "D": "Phương án A và B đều không đáp ứng về giá trị hợp đồng tương tự"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 115,
@@ -1261,7 +1375,8 @@
             "C": "Thực hiện theo thỏa thuận giữa Công ty A và Công ty B, Công ty A hoặc Công ty B được sử dụng nhà thầu phụ tối đa 20% trên tổng giá trị (100%) công việc nhưng phải bảo đảm tổng khối lượng công việc của nhà thầu phụ của liên danh A-B tối đa 20% trên tổng giá trị (100%) công việc mà Công ty A và Công ty B đảm nhận",
             "D": "Tất cả đáp án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 116,
@@ -1272,7 +1387,8 @@
             "C": "Không hoàn trả bảo đảm dự thầu của nhà thầu B",
             "D": "Nhà thầu A và nhà thầu B vẫn được hoàn trả bảo đảm dự thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 117,
@@ -1283,7 +1399,8 @@
             "C": "Nhà thầu A và B đều đáp ứng",
             "D": "Nhà thầu A và B đều không đáp ứng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 118,
@@ -1294,7 +1411,8 @@
             "C": "Bằng xác nhận số dư hạn mức tín dụng khả dụng từ ngân hàng",
             "D": "Tất cả các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 119,
@@ -1305,7 +1423,8 @@
             "C": "Bảo hiểm công trình mà giá trị hợp đồng được xác định chính xác trên cơ sở giá trị công trình thực tế được nghiệm thu",
             "D": "Tư vấn giám sát"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 120,
@@ -1316,7 +1435,8 @@
             "C": "Dự toán gói thầu",
             "D": "Phương án A và C đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 121,
@@ -1327,7 +1447,8 @@
             "C": "Nhà thầu đề nghị điều chỉnh tiến độ do bất khả kháng",
             "D": "Nhà thầu đề xuất thay đổi nhà thầu phụ"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 122,
@@ -1338,7 +1459,8 @@
             "C": "Nhà thầu cung cấp dịch vụ tư vấn",
             "D": "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 123,
@@ -1349,7 +1471,8 @@
             "C": "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
             "D": "Tất cả các phương án trên."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 124,
@@ -1360,7 +1483,8 @@
             "C": "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 04 giờ kể từ thời điểm mở thầu",
             "D": "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 ngày làm việc kể từ thời điểm mở thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 125,
@@ -1371,7 +1495,8 @@
             "C": "Chủ đầu tư A và nhà thầu B bắt buộc phải thực hiện thủ tục ký phụ lục hợp đồng để điều chỉnh khối lượng",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 126,
@@ -1382,7 +1507,8 @@
             "C": "Khi thay đổi phương thức vận chuyển, địa điểm giao hàng, dịch vụ liên quan đối với gói thầu mua sắm hàng hóa",
             "D": "Tăng, giảm thời gian đối với hợp đồng theo thời gian; tăng, giảm chi phí trực tiếp thực hiện đối với hợp đồng chi phí cộng phí; tăng, giảm giá trị cơ sở để tính phần trăm chi phí đối với hợp đồng theo tỷ lệ phần trăm; tăng, giảm mức giảm trừ thanh toán, mức tăng giá trị thanh toán đối với hợp đồng theo kết quả đầu ra"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 127,
@@ -1393,7 +1519,8 @@
             "C": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành sau 03 ngày kể từ khi thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu được đăng tải thành công trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu được phát hành ngay sau khi đăng tải thành công thông báo mời quan tâm, thông báo mời sơ tuyển, thông báo mời thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 128,
@@ -1404,7 +1531,8 @@
             "C": "Đấu thầu trước là việc lựa chọn nhà thầu không cần phê duyệt kế hoạch lựa chọn nhà thầu để đẩy nhanh tiến độ thực hiện",
             "D": "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, dự toán mua sắm, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 129,
@@ -1415,7 +1543,8 @@
             "C": "Phát hành hồ sơ yêu cầu",
             "D": "Phê duyệt và công khai kết quả mua sắm trực tiếp"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 130,
@@ -1426,7 +1555,8 @@
             "C": "Thẩm định kết quả lựa chọn nhà thầu",
             "D": "Hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 131,
@@ -1437,7 +1567,8 @@
             "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định gửi báo cáo thẩm định hồ sơ mời thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 132,
@@ -1448,7 +1579,8 @@
             "C": "Tối đa là 05 ngày làm việc kể từ ngày tổ thẩm định trình báo cáo thẩm định kết quả lựa chọn nhà thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 133,
@@ -1459,7 +1591,8 @@
             "C": "Do người có thẩm quyền, chủ đầu tư có trách nhiệm quyết định",
             "D": "Do chủ đầu tư quyết định trên cơ sở bảo đảm tiến độ của dự án, gói thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 134,
@@ -1470,7 +1603,8 @@
             "C": "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
             "D": "Lập, phê duyệt hồ sơ yêu cầu; xác định nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu; phê duyệt và công khai kết quả lựa chọn nhà thầu; hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 135,
@@ -1481,7 +1615,8 @@
             "C": "Gói thầu áp dụng đấu thầu hạn chế do có yêu cầu đặc thù về kỹ thuật mà chỉ có một hoặc một số nhà thầu đáp ứng yêu cầu của gói thầu",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 136,
@@ -1492,7 +1627,8 @@
             "C": "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với dịch vụ đơn giản trong trường hợp cần thiết",
             "D": "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 137,
@@ -1503,7 +1639,8 @@
             "C": "Đàm phán giá.",
             "D": "Đấu thầu rộng rãi và đàm phán giá."
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 138,
@@ -1514,7 +1651,8 @@
             "C": "Không được thực hiện việc lựa chọn nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 139,
@@ -1525,7 +1663,8 @@
             "C": "Thời hạn áp dụng thỏa thuận khung do người có thẩm quyền quyết định trong kế hoạch lựa chọn nhà thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 140,
@@ -1536,7 +1675,8 @@
             "C": "Nhà thầu đã ký kết thỏa thuận khung không phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
             "D": "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng sau thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 141,
@@ -1547,7 +1687,8 @@
             "C": "Đơn vị tư vấn được thuê làm bên mời thầu",
             "D": "Không phải đăng tải thông tin"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 142,
@@ -1558,7 +1699,8 @@
             "C": "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
             "D": "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đám phán giá"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 143,
@@ -1569,7 +1711,8 @@
             "C": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu theo quy định của Luật Đấu thầu",
             "D": "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 144,
@@ -1580,7 +1723,8 @@
             "C": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
             "D": "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 145,
@@ -1591,7 +1735,8 @@
             "C": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
             "D": "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 146,
@@ -1602,7 +1747,8 @@
             "C": "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
             "D": "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 147,
@@ -1613,7 +1759,8 @@
             "C": "Sở Tài chính thuộc tỉnh X có trách nhiệm thực hiện mua sắm tập trung đối với các hàng hóa, dịch vụ này",
             "D": "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 148,
@@ -1624,7 +1771,8 @@
             "C": "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 149,
@@ -1635,7 +1783,8 @@
             "C": "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 150,
@@ -1646,7 +1795,8 @@
             "C": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu.",
             "D": "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu."
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 151,
@@ -1657,7 +1807,8 @@
             "C": "Người đứng đầu cơ quan được giao chuẩn bị dự án",
             "D": "Bên mời thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 152,
@@ -1668,7 +1819,8 @@
             "C": "Bên mời thầu",
             "D": "Đơn vị tư vấn được chủ đầu tư lựa chọn"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 153,
@@ -1679,7 +1831,8 @@
             "C": "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
             "D": "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 154,
@@ -1690,7 +1843,8 @@
             "C": "Trường hợp gói thầu được thực hiện trước khi có quyết định phê duyệt dự án và chưa xác định được chủ đầu tư",
             "D": "Chủ đầu tư chỉ được phê duyệt kế hoạch lựa chọn nhà thầu trong trường hợp được người có thẩm quyền ủy quyền"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 155,
@@ -1701,7 +1855,8 @@
             "C": "Người có thẩm quyền",
             "D": "Tổ thẩm định"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 156,
@@ -1712,7 +1867,8 @@
             "C": "Đào tạo, bồi dưỡng kiến thức, nghiệp vụ chuyên môn về đấu thầu.",
             "D": "Hợp tác quốc tế về đấu thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 157,
@@ -1723,7 +1879,8 @@
             "C": "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
             "D": "Kiểm tra định kỳ hoặc đột xuất"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 158,
@@ -1734,7 +1891,8 @@
             "C": "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
             "D": "05 năm tính từ ngày xảy ra hành vi vi phạm"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 159,
@@ -1745,7 +1903,8 @@
             "C": "Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở Trung ương",
             "D": "Chủ tịch Ủy ban nhân dân cấp tỉnh"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 160,
@@ -1756,7 +1915,8 @@
             "C": "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm",
             "D": "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 161,
@@ -1767,7 +1927,8 @@
             "C": "Từ 01 năm đến 02 năm",
             "D": "Từ 03 năm đến 05 năm"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 162,
@@ -1778,7 +1939,8 @@
             "C": "Từ 01 năm đến 03 năm",
             "D": "05 năm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 163,
@@ -1789,7 +1951,8 @@
             "C": "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với tất cả thành viên trong nhà thầu liên danh A-B",
             "D": "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 164,
@@ -1800,7 +1963,8 @@
             "C": "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung.",
             "D": "Trong quá trình thực hiện hợp đồng."
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 165,
@@ -1811,7 +1975,8 @@
             "C": "Không công nhận kết quả lựa chọn nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 166,
@@ -1822,7 +1987,8 @@
             "C": "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
             "D": "Không bị xử lý vi phạm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 167,
@@ -1833,7 +1999,8 @@
             "C": "Từ trên 01 năm đến 02 năm",
             "D": "Từ 06 tháng đến 01 năm"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 168,
@@ -1844,7 +2011,8 @@
             "C": "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
             "D": "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 169,
@@ -1855,7 +2023,8 @@
             "C": "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
             "D": "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 170,
@@ -1866,7 +2035,8 @@
             "C": "Bị đưa vào xem xét, đánh giá về kỹ thuật trong quá trình lựa chọn nhà thầu đối với gói thầu xây lắp, phi tư vấn, hàng hóa, hỗn hợp",
             "D": "Đáp án B và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 171,
@@ -1877,7 +2047,8 @@
             "C": "Đánh giá về kỹ thuật",
             "D": "Loại nhà thầu đã bị đánh giá về uy tín"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 172,
@@ -1888,7 +2059,8 @@
             "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
             "D": "Chủ đầu tư, tổ chuyên gia"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 173,
@@ -1899,7 +2071,8 @@
             "C": "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
             "D": "Chủ đầu tư, Hội đồng tư vấn giải quyết kiến nghị"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 174,
@@ -1910,7 +2083,8 @@
             "C": "Tạm dừng việc giải quyết kiến nghị đến khi có kết quả giải quyết khiếu nại",
             "D": "Tất cả phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 175,
@@ -1921,7 +2095,8 @@
             "C": "Chủ đầu tư",
             "D": "Người có thẩm quyền"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 176,
@@ -1932,7 +2107,8 @@
             "C": "Nhà thầu rút đơn kiến nghị trong quá trình giải quyết kiến nghị",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 177,
@@ -1943,7 +2119,8 @@
             "C": "35 ngày",
             "D": "20 ngày"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 178,
@@ -1954,7 +2131,8 @@
             "C": "Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình",
             "D": "Tất cả phương án A, B, C đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 179,
@@ -1965,7 +2143,8 @@
             "C": "Bộ phận thường trực",
             "D": "Hội đồng giải quyết kiến nghị"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 180,
@@ -1976,7 +2155,8 @@
             "C": "Bộ phận thường trực",
             "D": "Hội đồng giải quyết kiến nghị"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 181,
@@ -1987,7 +2167,8 @@
             "C": "Thành lập khi chủ tịch UBND tỉnh yêu cầu",
             "D": "Thành lập khi Giám đốc doanh nghiệp A đề nghị"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 182,
@@ -1998,7 +2179,8 @@
             "C": "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
             "D": "Không công nhận kết quả lựa chọn nhà thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 183,
@@ -2009,7 +2191,8 @@
             "C": "Cơ quan, tổ chức quan tâm đến gói thầu",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 184,
@@ -2020,7 +2203,8 @@
             "C": "Văn bản giải quyết kiến nghị của người có thẩm quyền",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 185,
@@ -2031,7 +2215,8 @@
             "C": "04 ngày làm việc",
             "D": "05 ngày làm việc"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 186,
@@ -2042,7 +2227,8 @@
             "C": "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 187,
@@ -2053,7 +2239,8 @@
             "C": "Được tham gia khi Chủ tịch Hội đồng giải quyết kiến nghị chấp thuận",
             "D": "Được tham gia khi người có thẩm quyền chấp thuận"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 188,
@@ -2064,7 +2251,8 @@
             "C": "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
             "D": "Tổ chuyên gia"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 189,
@@ -2075,7 +2263,8 @@
             "C": "Nhà thầu X phải nộp 20 triệu đồng",
             "D": "Nhà thầu X phải nộp 15 triệu đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 190,
@@ -2086,7 +2275,8 @@
             "C": "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
             "D": "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 191,
@@ -2097,7 +2287,8 @@
             "C": "40% giá hợp đồng",
             "D": "45% giá hợp đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 192,
@@ -2108,7 +2299,8 @@
             "C": "Có thể nhưng phải bảo đảm tỷ lệ tiết kiệm tối thiểu 5%",
             "D": "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 193,
@@ -2119,7 +2311,8 @@
             "C": "Đàm phán với nhà thầu trúng thầu của phần khác để thực hiện",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 194,
@@ -2130,7 +2323,8 @@
             "C": "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư",
             "D": "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư và Tổ chuyên gia"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 195,
@@ -2141,7 +2335,8 @@
             "C": "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 196,
@@ -2152,7 +2347,8 @@
             "C": "Bằng giá trị của phần công việc còn lại được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu.",
             "D": "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt."
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 197,
@@ -2163,7 +2359,8 @@
             "C": "Phải được người có thẩm quyền cho phép chủ đầu tư và nhà thầu thỏa thuận, điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn",
             "D": "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 198,
@@ -2174,7 +2371,8 @@
             "C": "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu không được mở thầu và trả lại theo nguyên trạng",
             "D": "Nhà thầu vẫn được tiếp tục tham dự thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 199,
@@ -2185,7 +2383,8 @@
             "C": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng xuất xứ nhưng không bắt buộc cùng hãng sản xuất.",
             "D": "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ."
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 200,
@@ -2196,7 +2395,8 @@
             "C": "Nhà thầu không được chấp nhận và bị loại",
             "D": "Hủy thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 201,
@@ -2207,7 +2407,8 @@
             "C": "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
             "D": "Tất cả các đáp án trên đều không đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 202,
@@ -2218,7 +2419,8 @@
             "C": "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
             "D": "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể cả sau khi đã ký hợp đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 203,
@@ -2229,7 +2431,8 @@
             "C": "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
             "D": "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 204,
@@ -2240,7 +2443,8 @@
             "C": "Được sửa đổi, bổ sung khối lượng công việc, hoàn thiện để ký kết hợp đồng với nhà thầu",
             "D": "Hủy thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 205,
@@ -2251,7 +2455,8 @@
             "C": "Không công nhận kết quả lựa chọn nhà thầu",
             "D": "Đình chỉ cuộc thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 206,
@@ -2262,7 +2467,8 @@
             "C": "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
             "D": "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 207,
@@ -2273,7 +2479,8 @@
             "C": "Chủ đầu tư quyết định để ngừa rủi ro cho quá trình thực hiện",
             "D": "Có thể quy định nhưng phải được người có thẩm quyền chấp thuận"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 208,
@@ -2284,7 +2491,8 @@
             "C": "Cho phép các nhà thầu còn lại chào lại giá dự thầu",
             "D": "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 209,
@@ -2295,7 +2503,8 @@
             "C": "Mời nhà thầu chào lại giá",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 210,
@@ -2306,7 +2515,8 @@
             "C": "Chỉ được kế thừa về kinh nghiệm của xí nghiệp X",
             "D": "Chỉ được kế thừa về năng lực của xí nghiệp X"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 211,
@@ -2317,7 +2527,8 @@
             "C": "Chỉ tịch thu giá trị bảo đảm thực hiện hợp đồng của nhà thầu B nếu nhà thầu A có đủ năng lực, kinh nghiệm đảm nhận phần công việc còn lại của nhà thầu B",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 212,
@@ -2328,7 +2539,8 @@
             "C": "E-HSDT của nhà thầu bị đánh giá không đáp ứng và bị loại",
             "D": "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 213,
@@ -2339,7 +2551,8 @@
             "C": "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống.",
             "D": "Cả 3 phương án trên đều đúng."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 214,
@@ -2350,7 +2563,8 @@
             "C": "Tài khoản do Tài khoản tham gia hệ thống tạo ra",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 215,
@@ -2361,7 +2575,8 @@
             "C": "Thông tin về năng lực, kinh nghiệm của nhà thầu",
             "D": "Cả 3 phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 216,
@@ -2372,7 +2587,8 @@
             "C": "Tư vấn đấu thầu",
             "D": "Chủ đầu tư"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 217,
@@ -2383,7 +2599,8 @@
             "C": "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
             "D": "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 218,
@@ -2394,7 +2611,8 @@
             "C": "05 ngày kể từ ngày hợp đồng có hiệu lực",
             "D": "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 219,
@@ -2405,7 +2623,8 @@
             "C": "Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
             "D": "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 220,
@@ -2416,7 +2635,8 @@
             "C": "Tổ chuyên gia",
             "D": "Tư vấn đấu thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 221,
@@ -2427,7 +2647,8 @@
             "C": "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 222,
@@ -2438,7 +2659,8 @@
             "C": "Phê duyệt kết quả lựa chọn nhà thầu",
             "D": "Tất cả các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 223,
@@ -2449,7 +2671,8 @@
             "C": "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 224,
@@ -2460,7 +2683,8 @@
             "C": "Báo cáo thẩm định E-HSMT sửa đổi",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 225,
@@ -2471,7 +2695,8 @@
             "C": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
             "D": "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 226,
@@ -2482,7 +2707,8 @@
             "C": "Gửi bản gốc đến địa chỉ bên mời thầu theo quy định trong E-HSMT",
             "D": "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 227,
@@ -2493,7 +2719,8 @@
             "C": "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
             "D": "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 228,
@@ -2504,7 +2731,8 @@
             "C": "E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá",
             "D": "Nhà thầu bị cấm tham gia hoạt động đấu thầu do có hành vi gian lận"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 229,
@@ -2515,7 +2743,8 @@
             "C": "Nhà thầu không rút được E-HSDT trên Hệ thống",
             "D": "Chủ đầu tư không được phép mở thầu khi chỉ có 01 nhà thầu tham dự"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 230,
@@ -2526,7 +2755,8 @@
             "C": "Các gói thầu có thời điểm đóng thầu trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 04 giờ",
             "D": "Các đáp án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 231,
@@ -2537,7 +2767,8 @@
             "C": "Chỉ được rút, sửa đổi, nộp lại E-HSDT trước thời điểm đóng thầu",
             "D": "Cả 3 đáp án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 232,
@@ -2548,7 +2779,8 @@
             "C": "Khi E-HSMT được sửa đổi",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 233,
@@ -2559,7 +2791,8 @@
             "C": "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày làm việc đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 234,
@@ -2570,7 +2803,8 @@
             "C": "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 235,
@@ -2581,7 +2815,8 @@
             "C": "Chủ đầu tư dành cho nhà thầu tối đa 03 ngày để nhà thầu thực hiện việc làm rõ E-HSDT.",
             "D": "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E- HSDT."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 236,
@@ -2592,7 +2827,8 @@
             "C": "Các file nén mở được bằng các phần mềm giải nén thông dụng như phần mềm giải nén ZIP tích hợp sẵn trên hệ điều hành Windows hoặc phần mềm giải nén Rar hoặc 7Zip",
             "D": "Các file bị nhiễm virus, bị lỗi, hỏng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 237,
@@ -2603,7 +2839,8 @@
             "C": "Doanh thu bình quân 3 năm gần nhất của nhà thầu",
             "D": "Các đáp án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 238,
@@ -2614,7 +2851,8 @@
             "C": "Đối với nhà thầu là hộ kinh doanh, không đánh giá tiêu chí kết quả hoạt động tài chính.",
             "D": "Tất cả phương án trên đều đúng."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 239,
@@ -2625,7 +2863,8 @@
             "C": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm.",
             "D": "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm."
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 240,
@@ -2636,7 +2875,8 @@
             "C": "Gói thầu xây lắp áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
             "D": "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT chào ưu đãi như nhau"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 241,
@@ -2647,7 +2887,8 @@
             "C": "Trước khi phê duyệt kết quả lựa chọn nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 242,
@@ -2658,7 +2899,8 @@
             "C": "Tệp tin này không được xem xét, đánh giá",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 243,
@@ -2669,7 +2911,8 @@
             "C": "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
             "D": "Tất cả phương án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 244,
@@ -2680,7 +2923,8 @@
             "C": "05 ngày",
             "D": "05 ngày làm việc"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 245,
@@ -2691,7 +2935,8 @@
             "C": "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Bị đánh giá về uy tín trong việc tham dự thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 246,
@@ -2702,7 +2947,8 @@
             "C": "Dịch vụ tư vấn",
             "D": "Hỗn hợp"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 247,
@@ -2713,7 +2959,8 @@
             "C": "Chào giá trực tuyến theo quy trình rút gọn",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 248,
@@ -2724,7 +2971,8 @@
             "C": "90%",
             "D": "95%"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 249,
@@ -2735,7 +2983,8 @@
             "C": "1-3% giá gói thầu",
             "D": "Không yêu cầu về bảo đảm dự thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 250,
@@ -2746,7 +2995,8 @@
             "C": "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 251,
@@ -2757,7 +3007,8 @@
             "C": "500 triệu đồng",
             "D": "01 tỷ đồng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 252,
@@ -2768,7 +3019,8 @@
             "C": "Phương án A và B đều đúng",
             "D": "Phương án A và B đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 253,
@@ -2779,7 +3031,8 @@
             "C": "Gói thầu mua sắm hàng hóa, cung cấp dịch vụ phi tư vấn thuộc dự án có giá gói thầu không quá 05 tỷ đồng",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 254,
@@ -2790,7 +3043,8 @@
             "C": "Không phải thẩm định kết quả lựa chọn nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 255,
@@ -2801,7 +3055,8 @@
             "C": "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 256,
@@ -2812,7 +3067,8 @@
             "C": "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 257,
@@ -2823,7 +3079,8 @@
             "C": "03 lần",
             "D": "Không giới hạn số lần"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 258,
@@ -2834,7 +3091,8 @@
             "C": "Các thành viên liên danh phải sử dụng cùng thể thức: bảo lãnh dự thầu điện tử hoặc bảo lãnh dự thầu bằng giấy",
             "D": "Các thành viên liên danh bắt buộc phải sử dụng cùng thể thức bảo lãnh dự thầu bằng giấy"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 259,
@@ -2845,7 +3103,8 @@
             "C": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tổ chuyên gia, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tổ chuyên gia thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu",
             "D": "Trong vòng 05 ngày làm việc, kể từ ngày nhận được yêu cầu của tư vấn đấu thầu, nếu nhà thầu từ chối hoặc không nộp bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh (đối với trường hợp sử dụng bảo lãnh dự thầu bằng văn bản giấy) theo yêu cầu của tư vấn đấu thầu thì nhà thầu sẽ bị xử lý theo đúng cam kết của nhà thầu trong đơn dự thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 260,
@@ -2856,7 +3115,8 @@
             "C": "Gói thầu áp dụng hình thức chỉ định thầu, đặt hàng, giao nhiệm vụ, mua sắm trực tiếp, tự thực hiện, đàm phán giá, lựa chọn nhà thầu trong trường hợp đặc biệt, gói thầu có sự tham gia của cộng đồng",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 261,
@@ -2867,7 +3127,8 @@
             "C": "Được thực hiện trước thời điểm đóng thầu trong trường hợp đã phát hành hồ sơ mời thầu trước ngày 01/7/2025 nhưng đến ngày 4/8/2025 chưa đóng thầu.",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 262,
@@ -2878,7 +3139,8 @@
             "C": "Hệ thống mạng đấu thầu quốc gia tự động gửi email thông báo về việc sửa đổi E-HSMT, thay đổi thời điểm đóng thầu (nếu có) cho các nhà thầu quan tâm đến gói thầu",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 263,
@@ -2889,7 +3151,8 @@
             "C": "Đính kèm thêm các thành phần còn thiếu của E-HSMT trên Hệ thống",
             "D": "Hủy thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 264,
@@ -2900,7 +3163,8 @@
             "C": "Tất cả các gói thầu áp dụng đấu thầu qua mạng",
             "D": "Tất cả các gói thầu áp dụng đấu thầu qua mạng và không qua mạng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 265,
@@ -2911,7 +3175,8 @@
             "C": "Đính kèm bản scan báo cáo đánh giá E-HSDT (chỉ cần chữ ký của tổ trưởng tổ chuyên gia)",
             "D": "Tất cả các phương án đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 266,
@@ -2922,7 +3187,8 @@
             "C": "11h00 ngày Thứ 3 (23/9/2025)",
             "D": "08h00 ngày Thứ 4 (24/9/2025)"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 267,
@@ -2933,7 +3199,8 @@
             "C": "Được làm rõ trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu",
             "D": "Được bổ sung trong trường hợp có sự sai khác thông tin về giảm giá giữa tệp tin đính kèm này và thông tin kê khai trong đơn dự thầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 268,
@@ -2944,7 +3211,8 @@
             "C": "05 ngày",
             "D": "03 ngày làm việc"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 269,
@@ -2955,7 +3223,8 @@
             "C": "02 giai đoạn, 02 túi hồ sơ",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 270,
@@ -2966,7 +3235,8 @@
             "C": "Có giá gói thầu không quá 05 tỷ đồng",
             "D": "Không có quy định về hạn mức áp dụng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 271,
@@ -2977,7 +3247,8 @@
             "C": "11h00 ngày thứ 6 (19/9/2025)",
             "D": "08h00 ngày thứ 2 (22/9/2025)"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 272,
@@ -2988,7 +3259,8 @@
             "C": "Yêu cầu về năng lực, kinh nghiệm được đính kèm trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 273,
@@ -2999,7 +3271,8 @@
             "C": "Không bị nhiễm virus, không bị lỗi, hỏng và không thiết lập mật khẩu",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 274,
@@ -3010,7 +3283,8 @@
             "C": "Đề nghị Trung tâm Đấu thầu qua mạng quốc gia sửa đổi E-HSMT trong trường hợp chủ đầu tư không sửa đổi được E-HSMT",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 275,
@@ -3021,7 +3295,8 @@
             "C": "Do Chủ đầu tư quyết định",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 276,
@@ -3032,7 +3307,8 @@
             "C": "Chứng thư số công cộng do tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cấp hoặc chứng thư số do tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng Chính phủ cấp",
             "D": "Phương án A và C đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 277,
@@ -3043,7 +3319,8 @@
             "C": "Đối tượng thụ hưởng bảo lãnh dự thầu luôn đáp ứng yêu cầu trong E-HSMT",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 278,
@@ -3054,7 +3331,8 @@
             "C": "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
             "D": "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 279,
@@ -3065,7 +3343,8 @@
             "C": "Có điểm kỹ thuật cao nhất",
             "D": "Có giá đề nghị trúng thầu thấp nhất"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 280,
@@ -3076,7 +3355,8 @@
             "C": "Gói thầu tư vấn chú trọng tới cả chất lượng và chi phí thực hiện",
             "D": "Gói thầu tư vấn có quy trình thực hiện đã được tiêu chuẩn hoá"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 281,
@@ -3087,7 +3367,8 @@
             "C": "Không thấp hơn 80% tổng số điểm kỹ thuật",
             "D": "Không thấp hơn 90% tổng số điểm kỹ thuật"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 282,
@@ -3098,7 +3379,8 @@
             "C": "Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh",
             "D": "Tất cả hình thức lựa chọn nhà thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 283,
@@ -3109,7 +3391,8 @@
             "C": "Có đề xuất kỹ thuật đáp ứng yêu cầu",
             "D": "Có giá trị phần sai lệch thiếu không quá 10% giá dự thầu"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 284,
@@ -3120,7 +3403,8 @@
             "C": "Cơ quan quản lý cấp trên của chủ đầu tư",
             "D": "Bên mời thầu"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 285,
@@ -3131,7 +3415,8 @@
             "C": "Từ ngày nộp hồ sơ dự thầu đến ngày hoàn thành nghĩa vụ theo hợp đồng",
             "D": "Từ ngày thông báo trúng thầu đến ngày hết thời hạn bảo hành"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 286,
@@ -3142,7 +3427,8 @@
             "C": "Dịch vụ tư vấn khi khó xác định được phạm vi và thời gian thực hiện dịch vụ",
             "D": "Tất cả phương án trên đều đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 287,
@@ -3153,7 +3439,8 @@
             "C": "Giá dự thầu của nhà thầu",
             "D": "Tổng mức đầu tư của dự án"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 288,
@@ -3164,7 +3451,8 @@
             "C": "Sửa đổi hợp đồng làm thay đổi thời gian thực hiện hợp đồng và vượt thời gian thực hiện dự án.",
             "D": "Sửa đổi hợp đồng làm thay đổi thiết kế cơ sở dẫn đến phải điều chỉnh chủ trương đầu tư."
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 289,
@@ -3175,7 +3463,8 @@
             "C": "Không vượt thời gian thực hiện gói thầu ghi trong hợp đồng nhưng có thể vượt giá gói thầu",
             "D": "Khi thay đổi thời gian thực hiện hợp đồng nhưng không làm vượt thời gian thực hiện dự án hoặc vượt giá gói thầu (bao gồm dự phòng) được duyệt nhưng không làm vượt tổng mức đầu tư"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 290,
@@ -3186,7 +3475,8 @@
             "C": "Hợp đồng theo đơn giá cố định không có chi phí dự phòng, còn hợp đồng theo đơn giá điều chỉnh có chi phí dự phòng",
             "D": "Hợp đồng theo đơn giá cố định chỉ áp dụng cho gói thầu dịch vụ tư vấn, hợp đồng theo đơn giá điều chỉnh áp dụng cho gói thầu xây lắp"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 291,
@@ -3197,7 +3487,8 @@
             "C": "Cả 2 tình huống đều do người có thẩm quyền quyết định",
             "D": "Tình huống (1) phải trình người có thẩm quyền cho phép, tình huống (2) do Chủ tịch Uỷ ban nhân dân tỉnh quyết định"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 292,
@@ -3208,7 +3499,8 @@
             "C": "Hợp đồng theo đơn giá cố định",
             "D": "Hợp đồng theo kết quả đầu ra"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 293,
@@ -3219,7 +3511,8 @@
             "C": "Chủ đầu tư không cần điều chỉnh kế hoạch lựa chọn nhà thầu",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 294,
@@ -3230,7 +3523,8 @@
             "C": "Trên cơ sở chấp thuận được trao hợp đồng của nhà thầu",
             "D": "Phương án A và B đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 295,
@@ -3241,7 +3535,8 @@
             "C": "Căn cứ vào giá dự thầu tại thời điểm kết thúc chào giá trực tuyến của nhà thầu xếp thứ nhất",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 296,
@@ -3252,7 +3547,8 @@
             "C": "Mua sắm trực tuyến phải được phê duyệt trong kế hoạch lựa chọn nhà thầu và được áp dụng đối với gói thầu mua sắm hàng hóa, gói thầu dịch vụ tư vấn thuộc dự toán có giá gói thầu không quá 01 tỷ đồng",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 297,
@@ -3263,7 +3559,8 @@
             "C": "Nhà thầu có từ 50% lao động trở lên là người khuyết tật,  thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực",
             "D": "Nhà thầu có từ 25% lao động trở lên là người khuyết tật,  thương binh, dân tộc thiểu số có hợp đồng lao động với thời gian thực hiện hợp đồng dưới 03 tháng và đến thời điểm đóng thầu hợp đồng vẫn còn hiệu lực"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 298,
@@ -3274,7 +3571,8 @@
             "C": "Nhà thầu A sử dụng tài khoản tham gia Hệ thống của công ty con hạch toán phụ thuộc C để tham dự thầu",
             "D": "Đáp án A và C là đúng"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 299,
@@ -3285,7 +3583,8 @@
             "C": "Nhà thầu nộp hàng mẫu trong thời hạn 05 ngày sau khi nộp thành công E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
             "D": "Các phương án trên đều sai."
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 300,
@@ -3296,7 +3595,8 @@
             "C": "Chủ đầu tư và các nhà thầu tham dự lễ mở thầu",
             "D": "Các phương án trên đều đúng"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": true
     },
     {
         "id": 301,
@@ -3307,7 +3607,8 @@
             "C": "Trường hợp có sự sai khác giữa bản gốc và bản chụp nhưng không làm thay đổi thứ tự xếp hạng nhà thầu thì căn cứ vào bản gốc để đánh giá",
             "D": "Các phương án trên đều sai"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 302,
@@ -3318,7 +3619,8 @@
             "C": "Các thành viên liên danh có thể ủy quyền cho bất kỳ thành viên nào trong liên danh ký, đóng dấu (nếu có)",
             "D": "Bất kỳ thành viên nào trong liên danh cũng có thể đại diện ký, đóng dấu (nếu có)"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 303,
@@ -3329,7 +3631,8 @@
             "C": "Đấu thầu hạn chế",
             "D": "Chào hàng cạnh tranh"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 304,
@@ -3340,7 +3643,8 @@
             "C": "Bước thương thảo hợp đồng",
             "D": "Bước đánh giá hồ sơ đề xuất kỹ thuật"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 305,
@@ -3351,7 +3655,8 @@
             "C": "Các yếu tố khác ngoài giá (nếu có)",
             "D": "Thời gian còn lại của phiên chào giá"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 306,
@@ -3362,7 +3667,8 @@
             "C": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu khi giá gói thầu lớn hơn 500 triệu đồng",
             "D": "Chỉ phải phê duyệt trong kế hoạch lựa chọn nhà thầu đối với các gói thầu thuộc dự án đầu tư"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 307,
@@ -3373,7 +3679,8 @@
             "C": "Chủ đầu tư",
             "D": "Đơn vị mua sắm tập trung"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 308,
@@ -3384,7 +3691,8 @@
             "C": "05 ngày",
             "D": "05 ngày làm việc"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 309,
@@ -3395,7 +3703,8 @@
             "C": "Nhà thầu nộp hồ sơ dự thầu sớm nhất",
             "D": "Yêu cầu các nhà thầu này chào lại giá"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 310,
@@ -3406,7 +3715,8 @@
             "C": "05 ngày",
             "D": "05 ngày làm việc"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 311,
@@ -3417,7 +3727,8 @@
             "C": "Không được bổ sung tài liệu chứng minh năng lực, kinh nghiệm còn thiếu",
             "D": "Rút hồ sơ dự thầu để nộp lại"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 312,
@@ -3428,7 +3739,8 @@
             "C": "Khi nhà thầu đề nghị điều chỉnh đơn giá hạng mục mà nhà thầu đã chào theo yêu cầu của hồ sơ mời thầu nhưng chủ đầu tư không chấp nhận",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": true
     },
     {
         "id": 313,
@@ -3439,7 +3751,8 @@
             "C": "Đơn giá hình thành giá gói thầu",
             "D": "Đơn giá tương ứng có giá trị cao nhất trong các hồ sơ dự thầu khác vượt qua bước đánh giá về kỹ thuật"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 314,
@@ -3450,7 +3763,8 @@
             "C": "Chỉ được dùng giấy chứng nhận bảo hiểm bảo lãnh do chính mình phát hành nếu giá trị bảo lãnh nhỏ hơn 50 triệu đồng.",
             "D": "Tất cả phương án đều sai"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": true
     },
     {
         "id": 315,
@@ -3461,7 +3775,8 @@
             "C": "05 ngày làm việc kể từ ngày được yêu cầu",
             "D": "07 ngày làm việc kể từ ngày được yêu cầu"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 316,
@@ -3472,7 +3787,8 @@
             "C": "Tuỳ thuộc vào quyết định của chủ đầu tư",
             "D": "Chỉ phải thực hiện đối với gói thầu có giá trị bảo đảm dự thầu trên 50 triệu đồng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 317,
@@ -3483,7 +3799,8 @@
             "C": "Chỉ xét ưu đãi cho các nhà thầu đã kê khai",
             "D": "Tính ưu đãi cho tất cả nhà nhà thầu tham dự mà không cần làm rõ với nhà thầu không kê khai"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 318,
@@ -3494,7 +3811,8 @@
             "C": "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
             "D": "Phương án B và C đều đúng"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 319,
@@ -3505,7 +3823,8 @@
             "C": "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam  và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
             "D": "Tất cả các hiệp định mà Việt Nam là thành viên"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 320,
@@ -3516,7 +3835,8 @@
             "C": "11 nước",
             "D": "12 nước"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 321,
@@ -3527,7 +3847,8 @@
             "C": "Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam  và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
             "D": "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 322,
@@ -3538,7 +3859,8 @@
             "C": "Thuê quyền sử dụng đất",
             "D": "Mua sắm vật tư y tế"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 323,
@@ -3549,7 +3871,8 @@
             "C": "Gói thầu thuộc phạm vi điều chỉnh của hiệp định",
             "D": "Gói thầu có giá trị lớn, phức tạp"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 324,
@@ -3560,7 +3883,8 @@
             "C": "Đấu thầu giữa các nước thành viên EVFTA, UKVFTA",
             "D": "Đấu thầu trong nước"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 325,
@@ -3571,7 +3895,8 @@
             "C": "Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu",
             "D": "Hàng hóa thuộc gói thầu quá phức tạp mà nhà thầu trong nước không đáp ứng được"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 326,
@@ -3582,7 +3907,8 @@
             "C": "Chỉ khi dịch vụ có yếu tố đặc thù, phức tạp cần thiết phải có nhân sự có hiểu biết, nhiều kinh nghiệm đảm nhận",
             "D": "Khi có yêu cầu của nhà thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 327,
@@ -3593,7 +3919,8 @@
             "C": "01/9/2020",
             "D": "01/10/2020"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 328,
@@ -3604,7 +3931,8 @@
             "C": "Thông tư số 15/2022/TT-BKHĐT",
             "D": "Thông tư số 20/2022/TT-BKHĐT"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 329,
@@ -3615,7 +3943,8 @@
             "C": "Bộ Tài chính",
             "D": "Bộ Công Thương"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 330,
@@ -3626,7 +3955,8 @@
             "C": "2020",
             "D": "Việt Nam chưa phải là thành viên của GPA"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 331,
@@ -3637,7 +3967,8 @@
             "C": "Vương quốc Anh và Bắc Ai-len",
             "D": "Các nước ASEAN chưa gia nhập Hiệp định CPTPP"
         },
-        "answer": "D"
+        "answer": "D",
+        "fixedOptions": false
     },
     {
         "id": 332,
@@ -3648,7 +3979,8 @@
             "C": "Tiếng Việt; hoặc tiếng Việt và tiếng Anh",
             "D": "Bất kỳ ngôn ngữ nào của các nước thành viên"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 333,
@@ -3659,7 +3991,8 @@
             "C": "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể",
             "D": "Yêu cầu về chất lượng dịch vụ"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 334,
@@ -3670,7 +4003,8 @@
             "C": "Được phép áp dụng trong thời gian chuyển tiếp",
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 335,
@@ -3681,7 +4015,8 @@
             "C": "Đấu thầu rộng rãi và chỉ định thầu",
             "D": "Chỉ có đấu thầu rộng rãi"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 336,
@@ -3692,7 +4027,8 @@
             "C": "Khuyến khích áp dụng",
             "D": "Tùy quy mô, tính chất từng gói thầu"
         },
-        "answer": "C"
+        "answer": "C",
+        "fixedOptions": false
     },
     {
         "id": 337,
@@ -3703,7 +4039,8 @@
             "C": "Gói thầu hỗn hợp",
             "D": "Gói thầu xây lắp"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     },
     {
         "id": 338,
@@ -3714,7 +4051,8 @@
             "C": "Mua hàng hóa chỉ có 01 hãng sản xuất",
             "D": "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
         },
-        "answer": "B"
+        "answer": "B",
+        "fixedOptions": false
     },
     {
         "id": 339,
@@ -3725,7 +4063,8 @@
             "C": "Từ ngày 08 tháng 8 năm 2025",
             "D": "Tất cả các đáp án trên đều sai"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": true
     },
     {
         "id": 340,
@@ -3736,6 +4075,7 @@
             "C": "Ngày 01/8/2025",
             "D": "Ngày 01/7/2025"
         },
-        "answer": "A"
+        "answer": "A",
+        "fixedOptions": false
     }
 ]
