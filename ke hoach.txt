@@ -1,0 +1,61 @@
+HỒ SƠ CHUYÊN ÁN: EDU-SUPPORT (PHÂN HỆ ĐẤU THẦU 2025) - PHIÊN BẢN LIGHT
+
+1. TỔNG QUAN (OVERVIEW)
+
+Tên dự án: Ứng dụng Ôn thi Chứng chỉ Đấu thầu 2025.
+
+Mục tiêu: Giúp vợ đồng chí Vi Phương ôn tập 340 câu hỏi trắc nghiệm mọi lúc, mọi nơi trên nền tảng Web.
+
+Đặc thù: "Đánh nhanh thắng nhanh", đơn giản, hiệu quả, chạy trên mọi trình duyệt.
+
+2. YÊU CẦU DỮ LIỆU (DATA REQUIREMENTS)
+
+Nguồn: File Excel 340 cau thi CCNV Dau thau 2025.xlsm.
+
+Định dạng đầu ra: Mảng dữ liệu Javascript (Array of Objects) nhúng thẳng vào file HTML.
+
+3. TÍNH NĂNG NGHIỆP VỤ (KEY FEATURES)
+
+3.1. Chế độ Luyện tập (Practice Mode)
+
+Giao diện thẻ bài (Card style).
+
+Hiển thị câu hỏi và 4 đáp án.
+
+Cơ chế phản hồi:
+
+Chọn đúng: Nổi màu xanh, tự động chuyển câu sau 1 giây.
+
+Chọn sai: Nổi màu đỏ, hiện ngay đáp án đúng.
+
+Nút điều hướng: Trước/Sau/Đi đến câu số X.
+
+3.2. Tiện ích (Utilities)
+
+Lưu vết (Auto-save): Tự động nhớ câu đang làm dở (LocalStorage).
+
+Reset: Nút xóa lịch sử để học lại từ đầu.
+
+Responsive: Tối ưu hiển thị to, rõ trên điện thoại di động.
+
+4. YÊU CẦU KỸ THUẬT (TECH STACK)
+
+Nền tảng: Web tĩnh (Static Web).
+
+Ngôn ngữ: HTML5, CSS3 (dùng Tailwind CDN), Javascript thuần (Vanilla JS).
+
+Cấu trúc: Single File (Tất cả code nằm trong index.html).
+
+Hạ tầng (Infrastructure):
+
+Repository: https://github.com/vi-phuong-158/cap-chung-chi
+
+Deployment: GitHub Pages (Kích hoạt từ repository trên).
+
+5. LỘ TRÌNH TRIỂN KHAI
+
+Task 1: Viết công cụ chuyển đổi Excel sang Javascript Data. (Đã hoàn thành tool Python).
+
+Task 2: Xây dựng index.html hoàn chỉnh với tính năng luyện tập. (Đã có code).
+
+Task 3: Đẩy code lên GitHub vi-phuong-158/cap-chung-chi và kích hoạt GitHub Pages để vợ đồng chí truy cập.
