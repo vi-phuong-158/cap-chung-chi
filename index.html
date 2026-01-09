@@ -219,6 +219,265 @@
         }
 
         /* ============================================
+           UTILITY FEATURES STYLES
+        ============================================ */
+
+        /* Shopee Helper - Floating Button */
+        .shopee-helper {
+            position: fixed;
+            bottom: 100px;
+            right: 20px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: floatHelper 3s ease-in-out infinite;
+            text-decoration: none;
+        }
+
+        .shopee-helper:hover {
+            transform: scale(1.15);
+            filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.3));
+        }
+
+        .shopee-helper img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: white;
+            border: 3px solid var(--bidv-gold);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 0 0 3px rgba(255, 255, 255, 0.5);
+        }
+
+        .shopee-helper::after {
+            content: 'Hỏi Shopee!';
+            position: absolute;
+            right: 80px;
+            background: #333;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .shopee-helper:hover::after {
+            opacity: 1;
+        }
+
+        /* Speech Bubble for Shopee Helper */
+        .shopee-speech-bubble {
+            position: fixed;
+            bottom: 175px;
+            right: 20px;
+            background: white;
+            color: var(--bidv-teal);
+            padding: 12px 16px;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            z-index: 101;
+            animation: bubblePopIn 0.5s ease-out, bubbleFadeOut 0.5s ease-out 5s forwards;
+            max-width: 200px;
+        }
+
+        .shopee-speech-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 25px;
+            border-width: 10px 10px 0;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+        }
+
+        @keyframes bubblePopIn {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bubbleFadeOut {
+            to {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
+
+        @keyframes floatHelper {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        /* Podcast Toggle Button */
+        .podcast-toggle {
+            position: fixed;
+            bottom: 100px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--bidv-teal), var(--bidv-teal-dark));
+            box-shadow: 0 4px 15px rgba(0, 123, 127, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            cursor: pointer;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .podcast-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(0, 123, 127, 0.5);
+        }
+
+        .podcast-toggle.active {
+            background: linear-gradient(135deg, var(--bidv-gold), var(--bidv-gold-dark));
+        }
+
+        /* Podcast Player Mini */
+        .podcast-player {
+            position: fixed;
+            bottom: 160px;
+            left: 20px;
+            background: white;
+            border-radius: 16px;
+            padding: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+            z-index: 100;
+            animation: slideUp 0.3s ease-out;
+            max-width: 280px;
+        }
+
+        .podcast-player audio {
+            width: 100%;
+            height: 40px;
+        }
+
+        .podcast-player-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--bidv-teal);
+            margin-bottom: 8px;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Infographic & Video Modal */
+        .media-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 200;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .media-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .media-modal-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
+        .media-modal img {
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .media-modal video {
+            max-width: 100%;
+            max-height: 90vh;
+            border-radius: 8px;
+        }
+
+        /* Header Utility Buttons */
+        .header-utils {
+            display: flex;
+            gap: 8px;
+        }
+
+        .header-util-btn {
+            padding: 6px 12px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .header-util-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+        /* ============================================
            GLASSMORPHISM COMPONENTS
         ============================================ */
 
@@ -573,6 +832,1165 @@
             width: 20px;
             height: 20px;
         }
+
+        /* ============================================
+           CAMPAIGN MAP STYLES
+        ============================================ */
+
+        .campaign-map-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 150;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            transition: opacity 0.3s ease;
+        }
+
+        .campaign-map-container {
+            background: white;
+            border-radius: 24px;
+            width: 100%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            animation: bounceIn 0.4s ease-out;
+        }
+
+        .campaign-map-header {
+            background: linear-gradient(135deg, var(--bidv-teal) 0%, var(--bidv-teal-dark) 100%);
+            color: white;
+            padding: 20px 24px;
+            position: relative;
+        }
+
+        .campaign-map-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .campaign-map-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.1);
+        }
+
+        .campaign-map-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 8px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .campaign-map-filters {
+            display: flex;
+            gap: 8px;
+            padding: 16px 24px;
+            border-bottom: 1px solid #E5E7EB;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid #E5E7EB;
+            background: white;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--bidv-teal);
+            color: var(--bidv-teal);
+        }
+
+        .filter-btn.active {
+            background: var(--bidv-teal);
+            border-color: var(--bidv-teal);
+            color: white;
+        }
+
+        .campaign-map-grid {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-content: flex-start;
+            justify-content: center;
+        }
+
+        .grid-item {
+            width: 44px;
+            height: 44px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 3px solid transparent;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.15);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .grid-item:active {
+            transform: scale(0.95);
+        }
+
+        .grid-item-correct {
+            background: #10B981;
+            color: white;
+        }
+
+        .grid-item-wrong {
+            background: #EF4444;
+            color: white;
+        }
+
+        .grid-item-unanswered {
+            background: #E5E7EB;
+            color: #6B7280;
+        }
+
+        .grid-item-current {
+            border-color: var(--bidv-gold) !important;
+            box-shadow: 0 0 0 2px var(--bidv-gold-light);
+        }
+
+        .header-map-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .header-map-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* ============================================
+           MOCK EXAM STYLES
+        ============================================ */
+
+        /* Setup Modal */
+        .mock-setup-modal {
+            position: fixed;
+            inset: 0;
+            z-index: 150;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            transition: opacity 0.3s ease;
+        }
+
+        .mock-setup-card {
+            background: white;
+            border-radius: 24px;
+            padding: 32px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .mock-setup-title {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--bidv-teal);
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .mock-config-group {
+            margin-bottom: 20px;
+        }
+
+        .mock-config-label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 8px;
+        }
+
+        .mock-config-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #E5E7EB;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            transition: border-color 0.2s;
+        }
+
+        .mock-config-input:focus {
+            outline: none;
+            border-color: var(--bidv-teal);
+        }
+
+        .mock-config-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px;
+            background: #F9FAFB;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .mock-config-checkbox input[type="checkbox"] {
+            width: 22px;
+            height: 22px;
+            accent-color: var(--bidv-teal);
+        }
+
+        .mock-start-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--bidv-teal) 0%, var(--bidv-teal-dark) 100%);
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 16px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .mock-start-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 123, 127, 0.3);
+        }
+
+        .mock-cancel-btn {
+            width: 100%;
+            background: transparent;
+            color: #6B7280;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        /* Mock Exam Header with Timer */
+        .mock-exam-header {
+            position: sticky;
+            top: 0;
+            z-index: 90;
+            background: linear-gradient(135deg, var(--bidv-teal) 0%, var(--bidv-teal-dark) 100%);
+            color: white;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 20px rgba(0, 123, 127, 0.3);
+        }
+
+        .mock-timer {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 24px;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .mock-timer-icon {
+            font-size: 20px;
+        }
+
+        .mock-timer.warning {
+            color: #FCD34D;
+            animation: timerPulse 1s ease-in-out infinite;
+        }
+
+        .mock-timer.danger {
+            color: #EF4444;
+            animation: timerPulse 0.5s ease-in-out infinite;
+        }
+
+        @keyframes timerPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .mock-progress {
+            font-size: 16px;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+
+        .mock-submit-btn {
+            background: var(--bidv-gold);
+            color: #1F2937;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .mock-submit-btn:hover {
+            background: var(--bidv-gold-dark);
+            transform: scale(1.05);
+        }
+
+        /* Mock Exam Card (No feedback) */
+        .mock-option-btn {
+            background: white;
+            border: 2px solid #E5E7EB;
+            color: #374151;
+        }
+
+        .mock-option-btn.selected {
+            background: var(--bidv-teal-light);
+            border-color: var(--bidv-teal);
+            color: var(--bidv-teal);
+        }
+
+        /* Mock Result Screen */
+        .mock-result-screen {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background: linear-gradient(135deg, #007B7F 0%, #005F5F 100%);
+        }
+
+        .mock-result-card {
+            background: white;
+            border-radius: 24px;
+            padding: 32px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+            animation: bounceIn 0.5s ease;
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .mock-result-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .mock-result-status {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .mock-result-status.pass {
+            color: #10B981;
+        }
+
+        .mock-result-status.fail {
+            color: #EF4444;
+        }
+
+        .mock-result-score {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--bidv-teal);
+            margin-bottom: 8px;
+        }
+
+        .mock-result-detail {
+            font-size: 16px;
+            color: #6B7280;
+            margin-bottom: 24px;
+        }
+
+        .mock-result-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .mock-stat-item {
+            background: #F9FAFB;
+            padding: 12px;
+            border-radius: 12px;
+        }
+
+        .mock-stat-value {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1F2937;
+        }
+
+        .mock-stat-label {
+            font-size: 12px;
+            color: #6B7280;
+            margin-top: 4px;
+        }
+
+        .mock-stat-item.correct .mock-stat-value {
+            color: #10B981;
+        }
+
+        .mock-stat-item.wrong .mock-stat-value {
+            color: #EF4444;
+        }
+
+        .mock-stat-item.skip .mock-stat-value {
+            color: #6B7280;
+        }
+
+        .mock-review-btn {
+            width: 100%;
+            background: linear-gradient(135deg, var(--bidv-teal) 0%, var(--bidv-teal-dark) 100%);
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 14px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+
+        .mock-exit-btn {
+            width: 100%;
+            background: transparent;
+            color: #6B7280;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Review Mode */
+        .review-answer-correct {
+            background: #D1FAE5 !important;
+            border-color: #10B981 !important;
+            color: #065F46 !important;
+        }
+
+        .review-answer-wrong {
+            background: #FEE2E2 !important;
+            border-color: #EF4444 !important;
+            color: #991B1B !important;
+        }
+
+        .review-answer-expected {
+            border: 3px solid #10B981 !important;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+        }
+
+        /* Question Navigator for Mock */
+        .mock-nav-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-top: 12px;
+        }
+
+        .mock-nav-item {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .mock-nav-item.answered {
+            background: var(--bidv-gold);
+            color: #1F2937;
+        }
+
+        .mock-nav-item.unanswered {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .mock-nav-item.current {
+            border-color: white;
+            transform: scale(1.1);
+        }
+
+        /* ============================================
+           FLASHCARD STYLES
+        ============================================ */
+
+        /* Mode Switcher */
+        .mode-switcher {
+            display: flex;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 4px;
+            gap: 4px;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .mode-btn.active {
+            background: white;
+            color: var(--bidv-teal);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .mode-btn:not(.active):hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        /* Flashcard Container */
+        .flashcard-container {
+            perspective: 1000px;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .flashcard {
+            position: relative;
+            width: 100%;
+            height: 350px;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            border-radius: 24px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Front Face - Question */
+        .flashcard-front {
+            background: linear-gradient(145deg, #FFFFFF 0%, #F8FAFC 100%);
+            border: 2px solid #E5E7EB;
+        }
+
+        .flashcard-front-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .flashcard-badge {
+            background: var(--bidv-teal-light);
+            color: var(--bidv-teal);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .flashcard-hint-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--bidv-gold-light), var(--bidv-gold));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(245, 166, 35, 0.3);
+        }
+
+        .flashcard-question {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.6;
+            color: #1F2937;
+            padding: 16px;
+            overflow-y: auto;
+        }
+
+        .flashcard-tap-hint {
+            text-align: center;
+            color: #9CA3AF;
+            font-size: 14px;
+            padding: 12px;
+            background: #F9FAFB;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .tap-icon {
+            font-size: 20px;
+            animation: tapBounce 2s ease-in-out infinite;
+        }
+
+        @keyframes tapBounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* Back Face - Answer */
+        .flashcard-back {
+            background: linear-gradient(145deg, #ECFDF5 0%, #D1FAE5 100%);
+            border: 2px solid #10B981;
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-back-header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .answer-badge {
+            background: #10B981;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .flashcard-answer {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 16px;
+        }
+
+        .answer-key {
+            width: 50px;
+            height: 50px;
+            background: #10B981;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+        }
+
+        .answer-content {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #065F46;
+            font-weight: 600;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .flashcard-encouragement {
+            text-align: center;
+            color: #059669;
+            font-size: 14px;
+            padding: 12px;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        /* Flashcard Navigation */
+        .flashcard-nav {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .flashcard-nav-btn {
+            flex: 1;
+            padding: 16px;
+            border: none;
+            border-radius: 16px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .flashcard-nav-btn.forgot {
+            background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+            color: #92400E;
+            border: 2px solid #F59E0B;
+        }
+
+        .flashcard-nav-btn.forgot:hover {
+            background: linear-gradient(135deg, #FDE68A, #FCD34D);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+        }
+
+        .flashcard-nav-btn.memorized {
+            background: linear-gradient(135deg, #D1FAE5, #A7F3D0);
+            color: #065F46;
+            border: 2px solid #10B981;
+        }
+
+        .flashcard-nav-btn.memorized:hover {
+            background: linear-gradient(135deg, #A7F3D0, #6EE7B7);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Flashcard Progress */
+        .flashcard-progress {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            margin-top: 16px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+        }
+
+        .flashcard-stat {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .flashcard-stat.remaining {
+            color: #6B7280;
+        }
+
+        .flashcard-stat.memorized-count {
+            color: #10B981;
+        }
+
+        .flashcard-stat.forgot-count {
+            color: #F59E0B;
+        }
+
+        /* Flashcard Complete Screen */
+        .flashcard-complete {
+            text-align: center;
+            padding: 40px 24px;
+            background: linear-gradient(145deg, #ECFDF5 0%, #D1FAE5 100%);
+            border-radius: 24px;
+            border: 2px solid #10B981;
+        }
+
+        .flashcard-complete-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+
+        .flashcard-complete-title {
+            font-size: 24px;
+            font-weight: 800;
+            color: #065F46;
+            margin-bottom: 8px;
+        }
+
+        .flashcard-complete-subtitle {
+            font-size: 16px;
+            color: #059669;
+            margin-bottom: 24px;
+        }
+
+        .flashcard-restart-btn {
+            background: linear-gradient(135deg, var(--bidv-teal) 0%, var(--bidv-teal-dark) 100%);
+            color: white;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .flashcard-restart-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 123, 127, 0.3);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 480px) {
+            .flashcard {
+                height: 320px;
+            }
+
+            .flashcard-face {
+                padding: 20px;
+            }
+
+            .flashcard-question {
+                font-size: 15px;
+            }
+
+            .answer-content {
+                font-size: 16px;
+                max-height: 100px;
+                /* Fix overflow on mobile */
+            }
+
+            .flashcard-nav-btn {
+                padding: 14px;
+                font-size: 14px;
+            }
+        }
+
+        /* ============================================
+           HOME PAGE STYLES
+        ============================================ */
+
+        .home-screen {
+            position: absolute;
+            inset: 0;
+            z-index: 99;
+            background: linear-gradient(135deg, #007B7F 0%, #005F5F 100%);
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .home-header {
+            text-align: center;
+            margin-bottom: 32px;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        .home-logo {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .home-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .home-subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 20px;
+            padding: 24px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 0.5s ease;
+        }
+
+        .feature-card:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+
+        .feature-card:nth-child(3) {
+            animation-delay: 0.2s;
+        }
+
+        .feature-card:nth-child(4) {
+            animation-delay: 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card:active {
+            transform: scale(0.98);
+        }
+
+        .feature-card-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            flex-shrink: 0;
+        }
+
+        .feature-icon.practice {
+            background: linear-gradient(135deg, var(--bidv-teal-light), #B2DFDB);
+            color: var(--bidv-teal);
+        }
+
+        .feature-icon.mock-exam {
+            background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+            color: #92400E;
+        }
+
+        .feature-icon.flashcard {
+            background: linear-gradient(135deg, #E0E7FF, #C7D2FE);
+            color: #4338CA;
+        }
+
+        .feature-icon.dashboard {
+            background: linear-gradient(135deg, #D1FAE5, #A7F3D0);
+            color: #065F46;
+        }
+
+        .feature-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 4px;
+        }
+
+        .feature-subtitle {
+            font-size: 13px;
+            color: #9CA3AF;
+        }
+
+        .feature-description {
+            font-size: 14px;
+            color: #6B7280;
+            line-height: 1.6;
+            padding-left: 72px;
+        }
+
+        .feature-arrow {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #D1D5DB;
+            font-size: 20px;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover .feature-arrow {
+            color: var(--bidv-teal);
+            transform: translateY(-50%) translateX(4px);
+        }
+
+        /* Home Footer */
+        .home-footer {
+            text-align: center;
+            margin-top: 32px;
+            padding: 16px;
+            animation: fadeInUp 0.5s ease;
+            animation-delay: 0.4s;
+            animation-fill-mode: both;
+        }
+
+        .home-footer-text {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .home-footer-love {
+            color: #F472B6;
+        }
+
+        /* Stats on Home */
+        .home-stats {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 24px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            animation: fadeInUp 0.5s ease;
+            animation-delay: 0.35s;
+            animation-fill-mode: both;
+        }
+
+        .home-stat {
+            text-align: center;
+        }
+
+        .home-stat-value {
+            font-size: 24px;
+            font-weight: 800;
+            color: white;
+        }
+
+        .home-stat-label {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 4px;
+        }
     </style>
 </head>
 
@@ -605,61 +2023,192 @@
         </div>
     </div>
 
-    <!-- START SCREEN -->
-    <div id="start-screen" class="absolute inset-0 z-[100] flex flex-col items-center justify-center p-6 space-y-8"
-        style="background: linear-gradient(135deg, #007B7F 0%, #005F5F 100%);">
+    <!-- MOCK EXAM SETUP MODAL -->
+    <div id="mock-exam-setup" class="mock-setup-modal hidden-important" style="opacity: 0;">
+        <div class="mock-setup-card">
+            <div class="mock-setup-title">⏱️ Cấu hình Thi Thử</div>
 
-        <!-- Logo & Title -->
-        <div class="text-center space-y-3 animate-fadeInUp">
-            <div class="w-20 h-20 mx-auto bg-white rounded-2xl flex items-center justify-center shadow-lg mb-4">
-                <span class="text-4xl">📚</span>
+            <div class="mock-config-group">
+                <label class="mock-config-label">Số lượng câu hỏi</label>
+                <input type="number" id="mock-question-count" class="mock-config-input" value="50" min="10" max="340">
+                <p class="text-xs text-gray-500 mt-2 text-center">Từ 10 đến 340 câu</p>
             </div>
-            <h1 class="text-4xl font-extrabold text-white tracking-tight">Edu-Support</h1>
-            <p class="text-lg text-teal-100 font-medium">Ôn thi Đấu Thầu 2025</p>
+
+            <div class="mock-config-group">
+                <label class="mock-config-label">Thời gian làm bài (phút)</label>
+                <input type="number" id="mock-time-limit" class="mock-config-input" value="60" min="5" max="180">
+                <p class="text-xs text-gray-500 mt-2 text-center">Từ 5 đến 180 phút</p>
+            </div>
+
+            <div class="mock-config-group">
+                <label class="mock-config-checkbox">
+                    <input type="checkbox" id="mock-shuffle-options" checked>
+                    <span class="font-medium text-gray-700">Đảo thứ tự đáp án</span>
+                </label>
+            </div>
+
+            <button onclick="startMockExam()" class="mock-start-btn">
+                🚀 BẮT ĐẦU THI THỬ
+            </button>
+            <button onclick="closeMockExamSetup()" class="mock-cancel-btn">
+                Hủy
+            </button>
         </div>
+    </div>
 
-        <!-- Config Card -->
-        <div class="glass-card w-full max-w-sm p-6 space-y-5 animate-fadeInUp" style="animation-delay: 0.2s;">
-            <div>
-                <label class="block text-gray-700 font-semibold mb-3 text-sm uppercase tracking-wide">Số lượng câu
-                    hỏi</label>
-                <input type="number" id="config-count" class="w-full p-3 text-center font-bold text-xl bg-white"
-                    value="340" min="1" max="340">
-                <p class="text-xs text-gray-500 mt-2 text-center">Tối đa 340 câu</p>
+    <!-- MOCK EXAM RESULT SCREEN -->
+    <div id="mock-result-screen" class="mock-result-screen hidden-important">
+        <div class="mock-result-card">
+            <div id="mock-result-icon" class="mock-result-icon">🎉</div>
+            <div id="mock-result-status" class="mock-result-status pass">ĐẠT</div>
+            <div id="mock-result-score" class="mock-result-score">8.5/10</div>
+            <div id="mock-result-detail" class="mock-result-detail">42/50 câu đúng trong 45:20</div>
+
+            <div class="mock-result-stats">
+                <div class="mock-stat-item correct">
+                    <div id="mock-stat-correct" class="mock-stat-value">42</div>
+                    <div class="mock-stat-label">Đúng</div>
+                </div>
+                <div class="mock-stat-item wrong">
+                    <div id="mock-stat-wrong" class="mock-stat-value">5</div>
+                    <div class="mock-stat-label">Sai</div>
+                </div>
+                <div class="mock-stat-item skip">
+                    <div id="mock-stat-skip" class="mock-stat-value">3</div>
+                    <div class="mock-stat-label">Bỏ qua</div>
+                </div>
             </div>
 
-            <div class="bg-white/50 p-4 rounded-xl">
-                <label class="block text-gray-700 font-semibold mb-3 text-sm uppercase tracking-wide">Trộn đáp
-                    án?</label>
-                <div class="flex items-center justify-center space-x-8">
-                    <label class="flex items-center space-x-3 cursor-pointer group">
-                        <input type="radio" name="shuffle_option" id="shuffle-yes" checked>
-                        <span class="font-medium text-gray-700 group-hover:text-teal-600 transition-colors">Có</span>
-                    </label>
-                    <label class="flex items-center space-x-3 cursor-pointer group">
-                        <input type="radio" name="shuffle_option" id="shuffle-no">
-                        <span class="font-medium text-gray-700 group-hover:text-teal-600 transition-colors">Không</span>
-                    </label>
+            <button onclick="reviewMockExam()" class="mock-review-btn">
+                🔍 Xem lại bài thi
+            </button>
+            <button onclick="exitMockExam()" class="mock-exit-btn">
+                Về trang chính
+            </button>
+        </div>
+    </div>
+
+    <!-- HOME SCREEN (Replaces Start Screen) -->
+    <div id="home-screen" class="home-screen animate-fadeIn">
+        <div class="home-header">
+            <div class="home-logo">📚</div>
+            <h1 class="home-title">Edu-Support</h1>
+            <p class="home-subtitle">Ôn thi Đấu Thầu 2025</p>
+
+            <div class="home-stats">
+                <div class="home-stat">
+                    <div class="home-stat-value">340</div>
+                    <div class="home-stat-label">Câu hỏi</div>
+                </div>
+                <div class="home-stat">
+                    <div class="home-stat-value" id="home-stat-progress">0%</div>
+                    <div class="home-stat-label">Tiến độ</div>
+                </div>
+                <div class="home-stat">
+                    <div class="home-stat-value" id="home-stat-memorized">0</div>
+                    <div class="home-stat-label">Đã thuộc</div>
                 </div>
             </div>
         </div>
 
-        <!-- Start Button -->
-        <div class="w-full max-w-sm space-y-4 animate-fadeInUp" style="animation-delay: 0.4s;">
-            <button onclick="startNewExam()" class="btn-gold w-full">
-                🚀 BẮT ĐẦU LÀM BÀI
-            </button>
+        <div class="feature-grid">
+            <!-- Feature 1: Practice -->
+            <!-- Feature 1: Question List (Was Practice) -->
+            <div class="feature-card" onclick="openQuestionList()">
+                <div class="feature-card-header">
+                    <div class="feature-icon practice">📚</div>
+                    <div>
+                        <div class="feature-title">Danh sách câu hỏi</div>
+                        <div class="feature-subtitle">Xem toàn bộ 340 câu</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Xem danh sách đầy đủ các câu hỏi và đáp án chính xác.
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
 
-            <button onclick="continueExam()" id="btn-continue"
-                class="hidden w-full text-white/90 font-medium hover:text-white transition-colors py-2">
-                ↩️ Tiếp tục bài đang làm dở
-            </button>
+            <!-- Feature 2: Flashcard -->
+            <div class="feature-card" onclick="startFlashcardFromHome()">
+                <div class="feature-card-header">
+                    <div class="feature-icon flashcard">🎴</div>
+                    <div>
+                        <div class="feature-title">Flashcard</div>
+                        <div class="feature-subtitle">Thẻ Ghi Nhớ</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Học thuộc lòng với hiệu ứng lật thẻ 3D. Đánh dấu các câu đã thuộc và chưa thuộc.
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
+
+            <!-- Feature 3: Mock Exam -->
+            <div class="feature-card" onclick="openMockExamSetupFromHome()">
+                <div class="feature-card-header">
+                    <div class="feature-icon mock-exam">⏱️</div>
+                    <div>
+                        <div class="feature-title">Thi Thử</div>
+                        <div class="feature-subtitle">Mô phỏng thi thật</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Làm bài thi trong thời gian giới hạn. Trộn câu hỏi và tính điểm Đạt/Trượt.
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
+
+            <!-- Feature 4: Dashboard -->
+            <div class="feature-card" onclick="openDashboardFromHome()">
+                <div class="feature-card-header">
+                    <div class="feature-icon dashboard">📊</div>
+                    <div>
+                        <div class="feature-title">Dashboard</div>
+                        <div class="feature-subtitle">Bản đồ tiến độ</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Xem tổng quan tiến độ học tập, thống kê số câu đúng/sai và các câu chưa làm.
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
+
+            <!-- Feature 5: Infographic (Bí Kíp) -->
+            <div class="feature-card" onclick="openInfographic()">
+                <div class="feature-card-header">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #FFE0E0, #FFCACA);">📋</div>
+                    <div>
+                        <div class="feature-title">Bí Kíp</div>
+                        <div class="feature-subtitle">Sơ đồ tư duy</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Xem sơ đồ tư duy tổng hợp kiến thức quan trọng. Chìa khóa để nhớ lâu!
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
+
+            <!-- Feature 6: Video -->
+            <div class="feature-card" onclick="openVideo()">
+                <div class="feature-card-header">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #E8DCFF, #D4C0FF);">🎬</div>
+                    <div>
+                        <div class="feature-title">Video</div>
+                        <div class="feature-subtitle">Bài giảng ôn tập</div>
+                    </div>
+                </div>
+                <div class="feature-description">
+                    Xem video giải thích chi tiết các nội dung quan trọng trong đấu thầu.
+                </div>
+                <div class="feature-arrow">➜</div>
+            </div>
+
+
         </div>
 
-        <!-- Footer text -->
-        <p class="text-teal-200/60 text-xs text-center animate-fadeInUp" style="animation-delay: 0.6s;">
-            Made with ❤️ for you
-        </p>
+        <div class="home-footer">
+            <p class="home-footer-text">Made with <span class="home-footer-love">❤️</span> for Vi Phuong</p>
+        </div>
     </div>
 
     <!-- MAIN APP HEADER -->
@@ -671,8 +2220,13 @@
                 </div>
                 <h1 class="text-lg font-bold">Edu-Support</h1>
             </div>
-            <div class="bg-white/20 px-4 py-1.5 rounded-full text-sm font-semibold">
-                Câu <span id="current-q-num">1</span>/<span id="total-q-num">--</span>
+            <div class="flex items-center gap-3">
+                <button onclick="openCampaignMap()" class="header-map-btn">
+                    <span>📊</span> Dashboard
+                </button>
+                <div class="bg-white/20 px-4 py-1.5 rounded-full text-sm font-semibold">
+                    Câu <span id="current-q-num">1</span>/<span id="total-q-num">--</span>
+                </div>
             </div>
         </div>
 
@@ -690,6 +2244,16 @@
                 <input type="number" id="jump-input"
                     class="w-16 px-2 py-1.5 rounded-lg text-gray-800 text-center text-sm font-semibold" min="1">
             </div>
+        </div>
+
+        <!-- Mode Switcher -->
+        <div class="mode-switcher mt-3" id="mode-switcher">
+            <button class="mode-btn active" id="mode-quiz" onclick="switchMode('quiz')">
+                📝 Trắc nghiệm
+            </button>
+            <button class="mode-btn" id="mode-flashcard" onclick="switchMode('flashcard')">
+                🎴 Flashcard
+            </button>
         </div>
     </header>
 
@@ -724,9 +2288,72 @@
         </div>
     </div>
 
+    <!-- CAMPAIGN MAP MODAL -->
+    <div id="campaign-map-modal" class="campaign-map-overlay hidden-important" style="opacity: 0;">
+        <div class="campaign-map-container">
+            <div class="campaign-map-header">
+                <button class="campaign-map-close" onclick="closeCampaignMap()">✕</button>
+                <h2 class="text-xl font-bold">📊 Bản đồ Tiến độ</h2>
+                <p class="text-sm text-teal-100 mt-1">Tổng quan 340 câu hỏi</p>
+
+                <div class="campaign-map-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" id="stat-total">340</div>
+                        <div class="stat-label">Tổng</div>
+                    </div>
+                    <div class="stat-item" style="background: rgba(16, 185, 129, 0.3);">
+                        <div class="stat-number" id="stat-correct">0</div>
+                        <div class="stat-label">Đúng</div>
+                    </div>
+                    <div class="stat-item" style="background: rgba(239, 68, 68, 0.3);">
+                        <div class="stat-number" id="stat-wrong">0</div>
+                        <div class="stat-label">Sai</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="stat-unanswered">340</div>
+                        <div class="stat-label">Chưa làm</div>
+                    </div>
+                </div>
+                <button onclick="confirmResetProgress()"
+                    style="color: #fca5a5; font-size: 0.9rem; margin-top: 10px; background: rgba(239, 68, 68, 0.2); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 8px; padding: 4px 12px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%;">
+                    <span>🗑️</span> Xóa dữ liệu học tập
+                </button>
+            </div>
+
+            <div class="campaign-map-filters">
+                <button class="filter-btn active" onclick="filterGrid('all')" id="filter-all">🔍 Tất cả</button>
+                <button class="filter-btn" onclick="filterGrid('wrong')" id="filter-wrong">❌ Câu sai</button>
+                <button class="filter-btn" onclick="filterGrid('unanswered')" id="filter-unanswered">⬜ Chưa làm</button>
+            </div>
+
+            <div class="campaign-map-grid" id="campaign-grid">
+                <!-- Grid items will be rendered here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CUSTOM SUBMIT CONFIRMATION MODAL -->
+    <div id="submit-confirm-modal" class="fixed inset-0 z-[110] hidden items-center justify-center"
+        style="background: rgba(0,0,0,0.7); backdrop-filter: blur(4px);">
+        <div class="glass-card-gold p-6 mx-4 max-w-sm w-full text-center" style="animation: bounceIn 0.3s ease-out;">
+            <div class="text-5xl mb-4">⚠️</div>
+            <h3 class="text-xl font-bold mb-3" style="color: var(--bidv-red);">Xác nhận nộp bài</h3>
+            <p id="submit-confirm-message" class="text-gray-600 mb-6">Bạn có chắc muốn nộp bài?</p>
+            <div class="flex gap-3 justify-center">
+                <button id="submit-confirm-cancel" class="btn-secondary px-6 py-2.5 rounded-xl font-semibold">
+                    ❌ Hủy
+                </button>
+                <button id="submit-confirm-ok" class="btn-primary px-6 py-2.5 rounded-xl font-semibold">
+                    ✅ Nộp bài
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- CONTENT -->
-    <main class="flex-1 p-4 pb-28 overflow-y-auto">
-        <div id="question-container" class="space-y-4">
+    <main class="app-main flex-1 p-4 pb-28 overflow-y-auto">
+        <!-- Quiz Mode Area -->
+        <div id="quiz-area" class="space-y-4">
             <!-- Question Content -->
             <div class="glass-card-gold p-5 question-card relative">
                 <span class="absolute top-3 right-4 text-xs font-bold px-2 py-1 rounded-full"
@@ -741,6 +2368,79 @@
             <!-- Options -->
             <div id="options-container" class="space-y-3">
                 <!-- Options injected here -->
+            </div>
+        </div>
+
+        <!-- Flashcard Mode Area -->
+        <div id="flashcard-area" class="hidden-important">
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <!-- Front Face -->
+                    <div class="flashcard-face flashcard-front">
+                        <div class="flashcard-front-header">
+                            <span class="flashcard-badge" id="flashcard-badge">Câu 1/340</span>
+                            <div class="flashcard-hint-icon">💡</div>
+                        </div>
+                        <div class="flashcard-question" id="flashcard-question">
+                            <!-- Question text here -->
+                        </div>
+                        <div class="flashcard-tap-hint">
+                            <span class="tap-icon">👆</span>
+                            <span>Chạm để xem đáp án</span>
+                        </div>
+                    </div>
+                    <!-- Back Face - MUST be inside .flashcard for 3D flip -->
+                    <div class="flashcard-face flashcard-back">
+                        <div class="flashcard-back-header">
+                            <span class="answer-badge">✓ Đáp án đúng</span>
+                        </div>
+                        <div class="flashcard-answer">
+                            <div class="answer-key" id="flashcard-answer-key">A</div>
+                            <div class="answer-content" id="flashcard-answer-content">
+                                <!-- Answer text here -->
+                            </div>
+                        </div>
+                        <!-- Encouragement REMOVED -->
+                    </div>
+                </div>
+            </div>
+            <button
+                class="absolute top-4 left-4 text-teal-800 hover:text-teal-600 px-4 py-2 bg-white rounded-xl shadow-lg font-bold border border-teal-100 flex items-center gap-2 z-10"
+                onclick="exitFlashcard(event)">
+                🏠 Trang chủ
+            </button>
+
+            <!-- Flashcard Navigation -->
+            <div class="flashcard-nav">
+                <button class="flashcard-nav-btn forgot" onclick="flashcardForgot()">
+                    🔄 Chưa thuộc
+                </button>
+                <button class="flashcard-nav-btn memorized" onclick="flashcardMemorized()">
+                    ✓ Đã thuộc
+                </button>
+            </div>
+
+            <!-- Flashcard Progress -->
+            <div class="flashcard-progress">
+                <div class="flashcard-stat remaining">
+                    📚 Còn lại: <span id="flashcard-remaining">340</span>
+                </div>
+                <div class="flashcard-stat memorized-count">
+                    ✓ Thuộc: <span id="flashcard-memorized">0</span>
+                </div>
+                <div class="flashcard-stat forgot-count">
+                    🔄 Ôn lại: <span id="flashcard-forgot">0</span>
+                </div>
+            </div>
+
+            <!-- Flashcard Complete Screen (hidden by default) -->
+            <div id="flashcard-complete" class="flashcard-complete hidden-important">
+                <div class="flashcard-complete-icon">🏆</div>
+                <div class="flashcard-complete-title">Xuất sắc!</div>
+                <div class="flashcard-complete-subtitle">Bạn đã hoàn thành tất cả các thẻ ghi nhớ</div>
+                <button class="flashcard-restart-btn" onclick="restartFlashcards()">
+                    🔄 Học lại từ đầu
+                </button>
             </div>
         </div>
     </main>
@@ -762,6 +2462,81 @@
             </button>
         </div>
     </footer>
+
+    <!-- SHOPEE HELPER (Floating Button) -->
+    <a href="https://notebooklm.google.com/notebook/11a7f7cf-6544-4457-826a-08a950fefc5d" target="_blank"
+        class="shopee-helper" title="Có gì khó thì hỏi Shopee!">
+        <img src="tro-ly-shopee.png" alt="Trợ lý Shopee" onerror="this.outerHTML='🛒'">
+    </a>
+    <div class="shopee-speech-bubble" id="shopee-bubble">
+        Có gì khó thì hỏi Shopee nha! 😉
+    </div>
+
+    <!-- PODCAST TOGGLE & PLAYER -->
+    <div class="podcast-toggle" onclick="togglePodcast()" title="Nghe Podcast">🎧</div>
+    <div id="podcast-player" class="podcast-player hidden">
+        <div class="podcast-player-title">🎙️ Podcast Đấu Thầu</div>
+        <audio controls src="Podcast.m4a" style="width: 100%;">
+            Trình duyệt không hỗ trợ audio.
+        </audio>
+    </div>
+
+    <!-- INFOGRAPHIC MODAL -->
+    <div id="infographic-modal" class="media-modal hidden" onclick="closeInfographic(event)">
+        <button class="media-modal-close" onclick="closeInfographic()">✕</button>
+        <img src="infographic.png" alt="Sơ đồ tư duy bí kíp" onclick="event.stopPropagation()">
+    </div>
+
+    <!-- VIDEO MODAL -->
+    <div id="video-modal" class="media-modal hidden" onclick="closeVideo(event)">
+        <button class="media-modal-close" onclick="closeVideo()">✕</button>
+        <video controls onclick="event.stopPropagation()">
+            <source src="video.mp4" type="video/mp4">
+            Trình duyệt không hỗ trợ video.
+        </video>
+    </div>
+
+    <script>
+        // ===== UTILITY FUNCTIONS =====
+
+        // Toggle Podcast Player
+        function togglePodcast() {
+            const player = document.getElementById('podcast-player');
+            const toggle = document.querySelector('.podcast-toggle');
+            player.classList.toggle('hidden');
+            toggle.classList.toggle('active');
+        }
+
+        // Open Infographic Modal
+        function openInfographic() {
+            document.getElementById('infographic-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Close Infographic Modal
+        function closeInfographic(event) {
+            if (!event || event.target === document.getElementById('infographic-modal')) {
+                document.getElementById('infographic-modal').classList.add('hidden');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // Open Video Modal
+        function openVideo() {
+            document.getElementById('video-modal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            document.querySelector('#video-modal video').play();
+        }
+
+        // Close Video Modal
+        function closeVideo(event) {
+            if (!event || event.target === document.getElementById('video-modal')) {
+                document.getElementById('video-modal').classList.add('hidden');
+                document.body.style.overflow = '';
+                document.querySelector('#video-modal video').pause();
+            }
+        }
+    </script>
 
     <script>
         // --- DATA ---
@@ -853,20 +2628,90 @@
 
         // --- CORE LOGIC ---
 
-        function startNewExam() {
-            const countInput = document.getElementById('config-count');
 
-            let count = parseInt(countInput.value) || 340;
-            if (count > DB.length) count = DB.length;
-            if (count < 1) count = 1;
+        // --- CORE LOGIC & NAVIGATION ---
 
-            const doShuffle = document.getElementById('shuffle-yes').checked;
+        function init() {
+            loadState();
 
+            // Stats & Continue Button
+            updateHomeStats();
+
+            // Navigation State
+            document.getElementById('home-screen').classList.remove('hidden-important');
+            const sections = ['.app-header', '.app-main', '.app-footer'];
+            sections.forEach(s => {
+                const el = document.querySelector(s);
+                if (el) el.classList.add('hidden-important');
+            });
+
+            // Update continue button visibility
+            const btnCont = document.getElementById('btn-continue-home');
+            if (btnCont) {
+                if (state.active && state.questions && state.questions.length > 0 && !state.finished) {
+                    btnCont.classList.remove('hidden');
+                } else {
+                    btnCont.classList.add('hidden');
+                }
+            }
+        }
+
+        function updateHomeStats() {
+            const stats = getProgressStats();
+            const answered = stats.total - stats.unanswered;
+            const percent = Math.round((answered / stats.total) * 100) || 0;
+
+            const elProgress = document.getElementById('home-stat-progress');
+            if (elProgress) elProgress.textContent = percent + '%';
+
+            const elMemorized = document.getElementById('home-stat-memorized');
+            if (elMemorized) elMemorized.textContent = stats.correct;
+        }
+
+        function startPracticeFromHome() {
+            // If active session exists, confirm overwrite
+            if (state.active && !state.finished) {
+                if (!confirm("Bạn đang có bài tập dở dang. Bạn có muốn bắt đầu bài mới? (Tiến độ cũ sẽ mất)")) {
+                    return;
+                }
+            }
+            startNewExam(340, false);
+        }
+
+        function startFlashcardFromHome() {
+            switchMode('flashcard');
+
+            // Hide Home, Show App
+            document.getElementById('home-screen').classList.add('hidden-important');
+            document.querySelector('.app-header').classList.remove('hidden-important');
+            document.querySelector('.app-main').classList.remove('hidden-important');
+
+            // Flashcard doesn't use the standard footer? 
+            // The HTML has internal nav. 
+            // We can hide the main footer if flashcard mode
+            document.querySelector('.app-footer').classList.add('hidden-important');
+        }
+
+        function openMockExamSetupFromHome() {
+            openMockExamSetup();
+        }
+
+        function openDashboardFromHome() {
+            openCampaignMap();
+        }
+
+        function continueExamFromHome() {
+            if (state.active) {
+                switchMode('quiz');
+                enterExamMode();
+            }
+        }
+
+        function startNewExam(count = 340, doShuffle = false) {
             // 1. Select Questions
-            // Create list of indices [0, 1, ... 339]
             let indices = Array.from({ length: DB.length }, (_, i) => i);
 
-            // Shuffle indices using Fisher-Yates
+            // Shuffle indices
             for (let i = indices.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [indices[i], indices[j]] = [indices[j], indices[i]];
@@ -878,21 +2723,16 @@
             // 2. Build Exam Data
             const examQuestions = selectedIndices.map(idx => {
                 const original = DB[idx];
-
-                // Process Options
-                // Original: Object with keys A, B, C, D
-                // We want array: Array of objects with key/content
                 let optsArr = [];
                 ['A', 'B', 'C', 'D'].forEach(k => {
                     if (original.options[k]) {
                         optsArr.push({
-                            key: k, // Original key (A, B...)
+                            key: k,
                             content: original.options[k]
                         });
                     }
                 });
 
-                // Shuffle Options if requested (and if question is not marked as fixed)
                 if (doShuffle && !original.fixedOptions) {
                     for (let i = optsArr.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * (i + 1));
@@ -903,7 +2743,7 @@
                 return {
                     id: original.id,
                     question: original.question,
-                    correctKey: original.answer, // e.g. "A"
+                    correctKey: original.answer,
                     displayOptions: optsArr
                 };
             });
@@ -917,6 +2757,7 @@
             };
 
             saveState();
+            switchMode('quiz');
             enterExamMode();
         }
 
@@ -925,24 +2766,26 @@
         }
 
         function enterExamMode() {
-            elStartScreen.classList.add('hidden-important');
-            elResultScreen.classList.add('hidden-important');
+            document.getElementById('home-screen').classList.add('hidden-important');
+            document.querySelector('.app-header').classList.remove('hidden-important');
+            document.querySelector('.app-main').classList.remove('hidden-important');
+            document.querySelector('.app-footer').classList.remove('hidden-important');
+
+            const elStart = document.getElementById('start-screen');
+            if (elStart) elStart.classList.add('hidden-important');
+
+            const elResult = document.getElementById('result-screen');
+            if (elResult) elResult.classList.add('hidden-important');
+
             updateProgress();
             renderQuestion();
+            window.scrollTo(0, 0);
         }
 
         function exitExam() {
             if (confirm("Bạn có muốn thoát về màn hình chính?")) {
-                state.active = false;
-                state.finished = false;
-                saveState();
-
-                elResultScreen.classList.add('hidden-important');
-                elStartScreen.classList.remove('hidden-important');
-                elBtnContinue.classList.add('hidden');
-
-                // Reset inputs?
-                document.getElementById('config-count').value = 340;
+                // Return to Home
+                init();
             }
         }
 
@@ -1136,6 +2979,1009 @@
 
         // Start
         init();
+
+        // ============================================
+        // CAMPAIGN MAP FEATURE
+        // ============================================
+
+        const PROGRESS_KEY = 'edu_support_progress';
+        let currentFilter = 'all';
+
+        // Get progress data from localStorage
+        function getProgressData() {
+            try {
+                return JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}');
+            } catch (e) {
+                return {};
+            }
+        }
+
+        // Save progress for a specific question
+        function updateProgress(questionId, isCorrect) {
+            const progress = getProgressData();
+            progress[questionId] = isCorrect;
+            localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+        }
+
+        // Get progress stats
+        function getProgressStats() {
+            const progress = getProgressData();
+            const total = DB.length;
+            let correct = 0;
+            let wrong = 0;
+
+            Object.values(progress).forEach(status => {
+                if (status === true) correct++;
+                else if (status === false) wrong++;
+            });
+
+            return {
+                total,
+                correct,
+                wrong,
+                unanswered: total - correct - wrong
+            };
+        }
+
+        function confirmResetProgress() {
+            if (confirm('Bạn có chắc chắn muốn xóa toàn bộ dữ liệu tiến độ học tập không? Hành động này không thể hoàn tác!')) {
+                localStorage.removeItem(PROGRESS_KEY);
+                // Also clear the current quiz state and mock exam state for a full reset
+                if (typeof LS_KEY !== 'undefined') localStorage.removeItem(LS_KEY);
+                else localStorage.removeItem('edu_support_state_v2');
+
+                localStorage.removeItem('edu_support_mock_exam');
+
+                alert('Đã xóa dữ liệu thành công! Trang sẽ được tải lại.');
+                location.reload();
+            }
+        }
+
+        // Open Campaign Map modal
+        function openCampaignMap() {
+            const modal = document.getElementById('campaign-map-modal');
+            modal.classList.remove('hidden-important');
+            setTimeout(() => {
+                modal.style.opacity = '1';
+            }, 10);
+
+            // Update stats
+            updateCampaignStats();
+
+            // Render grid
+            renderCampaignGrid(currentFilter);
+        }
+
+        // Close Campaign Map modal
+        function closeCampaignMap() {
+            const modal = document.getElementById('campaign-map-modal');
+            modal.style.opacity = '0';
+            setTimeout(() => {
+                modal.classList.add('hidden-important');
+            }, 300);
+        }
+
+        // Update stats display
+        function updateCampaignStats() {
+            const stats = getProgressStats();
+            document.getElementById('stat-total').textContent = stats.total;
+            document.getElementById('stat-correct').textContent = stats.correct;
+            document.getElementById('stat-wrong').textContent = stats.wrong;
+            document.getElementById('stat-unanswered').textContent = stats.unanswered;
+        }
+
+        // Render the question grid
+        function renderCampaignGrid(filter) {
+            currentFilter = filter;
+            const grid = document.getElementById('campaign-grid');
+            const progress = getProgressData();
+
+            // Update filter button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById('filter-' + filter).classList.add('active');
+
+            // Get current question ID if in exam mode
+            let currentQuestionId = null;
+            if (state.active && state.questions && state.questions.length > 0) {
+                currentQuestionId = state.questions[state.currentIdx].id;
+            }
+
+            // Build grid HTML
+            let html = '';
+            DB.forEach((q, idx) => {
+                const qId = q.id;
+                const status = progress[qId];
+
+                // Filter logic
+                if (filter === 'wrong' && status !== false) return;
+                if (filter === 'unanswered' && status !== undefined) return;
+
+                // Determine class
+                let statusClass = 'grid-item-unanswered';
+                if (status === true) statusClass = 'grid-item-correct';
+                else if (status === false) statusClass = 'grid-item-wrong';
+
+                // Current question highlight
+                const currentClass = (qId === currentQuestionId) ? 'grid-item-current' : '';
+
+                html += `<button class="grid-item ${statusClass} ${currentClass}" onclick="jumpFromMap(${qId})" title="Câu ${qId}">${qId}</button>`;
+            });
+
+            // If no results for filter
+            if (!html) {
+                if (filter === 'wrong') {
+                    html = '<div class="text-center text-gray-500 py-8 w-full"><div class="text-4xl mb-2">🎉</div>Không có câu sai nào!</div>';
+                } else if (filter === 'unanswered') {
+                    html = '<div class="text-center text-gray-500 py-8 w-full"><div class="text-4xl mb-2">🏆</div>Bạn đã hoàn thành tất cả!</div>';
+                }
+            }
+
+            grid.innerHTML = html;
+        }
+
+        // Filter grid
+        function filterGrid(filter) {
+            renderCampaignGrid(filter);
+        }
+
+        // Jump to a question from the map
+        function jumpFromMap(questionId) {
+            closeCampaignMap();
+
+            // If not in exam mode, start new exam or show alert
+            if (!state.active) {
+                alert('Vui lòng bắt đầu làm bài trước!');
+                return;
+            }
+
+            // Find the question index in current exam
+            const idx = state.questions.findIndex(q => q.id === questionId);
+            if (idx !== -1) {
+                state.currentIdx = idx;
+                saveState();
+                renderQuestion();
+                updateProgress2();
+                window.scrollTo(0, 0);
+            } else {
+                // Question not in current exam
+                alert(`Câu ${questionId} không nằm trong bài thi hiện tại. Bạn có thể bắt đầu bài thi mới với 340 câu để truy cập tất cả các câu hỏi.`);
+            }
+        }
+
+        // Rename the progress update function for header to avoid conflict
+        function updateProgress2() {
+            updateProgress();
+        }
+
+        // Patch handleSelect to also update campaign progress
+        const originalHandleSelect = handleSelect;
+        handleSelect = function (qId, optIdx, isCorrect) {
+            // Call original function
+            originalHandleSelect(qId, optIdx, isCorrect);
+
+            // Also save to campaign progress
+            updateProgress(qId, isCorrect);
+        };
+
+        // Close modal on background click
+        document.getElementById('campaign-map-modal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeCampaignMap();
+            }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                const modal = document.getElementById('campaign-map-modal');
+                if (modal && !modal.classList.contains('hidden-important')) {
+                    closeCampaignMap();
+                }
+                const mockSetup = document.getElementById('mock-exam-setup');
+                if (mockSetup && !mockSetup.classList.contains('hidden-important')) {
+                    closeMockExamSetup();
+                }
+            }
+        });
+
+        // ============================================
+        // MOCK EXAM FEATURE
+        // ============================================
+
+        const MOCK_EXAM_KEY = 'edu_support_mock_exam';
+        let mockExamState = {
+            active: false,
+            questions: [],
+            userAnswers: {},
+            correctAnswers: {},
+            timeLimit: 3600,
+            timeRemaining: 3600,
+            startTime: null,
+            currentIdx: 0,
+            shuffleOptions: true,
+            submitted: false,
+            reviewMode: false
+        };
+        let timerInterval = null;
+
+        // Fisher-Yates shuffle
+        function shuffleArray(array) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
+        // Deep shuffle options for a question
+        function deepShuffleOptions(question) {
+            const q = structuredClone(question);
+            const correctContent = q.options[q.answer];
+            const keys = ['A', 'B', 'C', 'D'];
+            const values = keys.map(k => q.options[k]);
+            const shuffled = shuffleArray(values);
+
+            keys.forEach((k, i) => {
+                q.options[k] = shuffled[i];
+                if (shuffled[i] === correctContent) {
+                    q.answer = k;
+                }
+            });
+
+            return q;
+        }
+
+        // Generate mock exam questions
+        function generateMockExamQuestions(count, shuffle) {
+            let sampled = shuffleArray([...DB]).slice(0, count);
+            let questions = sampled.map(q => {
+                const cloned = structuredClone(q);
+                if (shuffle && !cloned.fixedOptions) {
+                    return deepShuffleOptions(cloned);
+                }
+                return cloned;
+            });
+            return questions;
+        }
+
+        // Open Mock Exam Setup Modal
+        function openMockExamSetup() {
+            const modal = document.getElementById('mock-exam-setup');
+            modal.classList.remove('hidden-important');
+            setTimeout(() => {
+                modal.style.opacity = '1';
+            }, 10);
+        }
+
+        // Close Mock Exam Setup Modal
+        function closeMockExamSetup() {
+            const modal = document.getElementById('mock-exam-setup');
+            modal.style.opacity = '0';
+            setTimeout(() => {
+                modal.classList.add('hidden-important');
+            }, 300);
+        }
+
+        // Start Mock Exam
+        function startMockExam() {
+            const count = Math.min(Math.max(parseInt(document.getElementById('mock-question-count').value) || 50, 10), 340);
+            const minutes = Math.min(Math.max(parseInt(document.getElementById('mock-time-limit').value) || 60, 5), 180);
+            const shuffle = document.getElementById('mock-shuffle-options').checked;
+
+            mockExamState = {
+                active: true,
+                questions: generateMockExamQuestions(count, shuffle),
+                userAnswers: {},
+                correctAnswers: {},
+                timeLimit: minutes * 60,
+                timeRemaining: minutes * 60,
+                startTime: Date.now(),
+                currentIdx: 0,
+                shuffleOptions: shuffle,
+                submitted: false,
+                reviewMode: false
+            };
+
+            // Store correct answers
+            mockExamState.questions.forEach(q => {
+                mockExamState.correctAnswers[q.id] = q.answer;
+            });
+
+            closeMockExamSetup();
+            document.getElementById('home-screen').classList.add('hidden-important');
+            document.querySelector('.app-main').classList.remove('hidden-important');
+            const footer = document.querySelector('.app-footer');
+            if (footer) footer.style.display = 'none';
+
+            // Show mock exam interface
+            showMockExamInterface();
+            renderMockQuestion();
+            startTimer();
+            saveMockExamState();
+        }
+
+        // Show Mock Exam Interface
+        function showMockExamInterface() {
+            // Hide normal header, show mock header
+            const normalHeader = document.querySelector('.app-header');
+            if (normalHeader) normalHeader.style.display = 'none';
+
+            // Create or show mock header
+            let mockHeader = document.getElementById('mock-exam-header');
+            if (!mockHeader) {
+                mockHeader = document.createElement('header');
+                mockHeader.id = 'mock-exam-header';
+                mockHeader.className = 'mock-exam-header';
+                mockHeader.innerHTML = `
+                    <div class="mock-timer" id="mock-timer">
+                        <span class="mock-timer-icon">⏱️</span>
+                        <span id="mock-timer-display">60:00</span>
+                    </div>
+                    <div class="mock-progress" id="mock-progress-display">1/${mockExamState.questions.length}</div>
+                    <button onclick="confirmSubmitMockExam()" class="mock-submit-btn">📝 NỘP BÀI</button>
+                `;
+                document.body.insertBefore(mockHeader, document.querySelector('main'));
+            }
+            mockHeader.style.display = 'flex';
+        }
+
+        // Hide Mock Exam Interface
+        function hideMockExamInterface() {
+            const mockHeader = document.getElementById('mock-exam-header');
+            if (mockHeader) mockHeader.style.display = 'none';
+
+            const normalHeader = document.querySelector('.app-header');
+            if (normalHeader) normalHeader.style.display = 'block';
+        }
+
+        // Start Timer
+        function startTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                mockExamState.timeRemaining--;
+                updateTimerDisplay();
+                saveMockExamState();
+
+                if (mockExamState.timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    submitMockExam();
+                }
+            }, 1000);
+        }
+
+        // Update Timer Display
+        function updateTimerDisplay() {
+            const minutes = Math.floor(mockExamState.timeRemaining / 60);
+            const seconds = mockExamState.timeRemaining % 60;
+            const display = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            const timerDisplay = document.getElementById('mock-timer-display');
+            const timerContainer = document.getElementById('mock-timer');
+
+            if (timerDisplay) timerDisplay.textContent = display;
+
+            if (timerContainer) {
+                timerContainer.classList.remove('warning', 'danger');
+                if (mockExamState.timeRemaining <= 60) {
+                    timerContainer.classList.add('danger');
+                } else if (mockExamState.timeRemaining <= 300) {
+                    timerContainer.classList.add('warning');
+                }
+            }
+        }
+
+        // Render Mock Question
+        function renderMockQuestion() {
+            const q = mockExamState.questions[mockExamState.currentIdx];
+            if (!q) return;
+
+            const container = document.getElementById('quiz-area');
+            const userAnswer = mockExamState.userAnswers[q.id];
+
+            let optionsHtml = '';
+            ['A', 'B', 'C', 'D'].forEach(key => {
+                const isSelected = userAnswer === key;
+                const selectedClass = isSelected ? 'selected' : '';
+
+                if (mockExamState.reviewMode) {
+                    // Review mode - show correct/wrong
+                    const isCorrect = key === mockExamState.correctAnswers[q.id];
+                    const wasUserChoice = userAnswer === key;
+                    let reviewClass = '';
+
+                    if (isCorrect) {
+                        reviewClass = 'review-answer-correct';
+                    } else if (wasUserChoice && !isCorrect) {
+                        reviewClass = 'review-answer-wrong';
+                    }
+
+                    optionsHtml += `
+                        <div class="option-card option-btn ${reviewClass}" style="pointer-events: none;">
+                            <span class="option-label">${key}</span>
+                            <span class="option-text">${q.options[key]}</span>
+                            ${isCorrect ? '<span class="ml-auto text-green-600">✓</span>' : ''}
+                            ${wasUserChoice && !isCorrect ? '<span class="ml-auto text-red-600">✗</span>' : ''}
+                        </div>
+                    `;
+                } else {
+                    // Exam mode - no feedback
+                    optionsHtml += `
+                        <div class="option-card option-btn mock-option-btn ${selectedClass}" onclick="handleMockSelect('${q.id}', '${key}')">
+                            <span class="option-label">${key}</span>
+                            <span class="option-text">${q.options[key]}</span>
+                        </div>
+                    `;
+                }
+            });
+
+            container.innerHTML = `
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="question-badge">Câu ${mockExamState.currentIdx + 1}/${mockExamState.questions.length}</span>
+                        <span class="question-id">ID: ${q.id}</span>
+                    </div>
+                    <p class="question-text">${q.question}</p>
+                    <div class="options-grid">
+                        ${optionsHtml}
+                    </div>
+                </div>
+
+                <div class="flex gap-3 mt-4">
+                    <button onclick="mockGoPrev()" class="nav-btn nav-btn-secondary flex-1" ${mockExamState.currentIdx === 0 ? 'disabled style="opacity:0.5"' : ''}>
+                        ← Câu trước
+                    </button>
+                    <button onclick="mockGoNext()" class="nav-btn nav-btn-primary flex-1" ${mockExamState.currentIdx === mockExamState.questions.length - 1 ? 'disabled style="opacity:0.5"' : ''}>
+                        Câu sau →
+                    </button>
+                </div>
+
+                <div class="mock-nav-grid mt-4">
+                    ${mockExamState.questions.map((question, idx) => {
+                const answered = mockExamState.userAnswers[question.id] !== undefined;
+                const current = idx === mockExamState.currentIdx;
+                return `<div class="mock-nav-item ${answered ? 'answered' : 'unanswered'} ${current ? 'current' : ''}" onclick="mockGoTo(${idx})">${idx + 1}</div>`;
+            }).join('')}
+                </div>
+            `;
+
+            // Update progress
+            const progressDisplay = document.getElementById('mock-progress-display');
+            if (progressDisplay) {
+                progressDisplay.textContent = `${mockExamState.currentIdx + 1}/${mockExamState.questions.length}`;
+            }
+        }
+
+        // Handle Mock Answer Selection
+        function handleMockSelect(qId, optKey) {
+            if (mockExamState.submitted || mockExamState.reviewMode) return;
+
+            mockExamState.userAnswers[qId] = optKey;
+            saveMockExamState();
+            renderMockQuestion();
+        }
+
+        // Navigation
+        function mockGoPrev() {
+            if (mockExamState.currentIdx > 0) {
+                mockExamState.currentIdx--;
+                renderMockQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function mockGoNext() {
+            if (mockExamState.currentIdx < mockExamState.questions.length - 1) {
+                mockExamState.currentIdx++;
+                renderMockQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function mockGoTo(idx) {
+            if (idx >= 0 && idx < mockExamState.questions.length) {
+                mockExamState.currentIdx = idx;
+                renderMockQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        // Confirm Submit - Using custom modal instead of native confirm()
+        function confirmSubmitMockExam() {
+            const answered = Object.keys(mockExamState.userAnswers).length;
+            const total = mockExamState.questions.length;
+            const unanswered = total - answered;
+
+            if (unanswered > 0) {
+                // Show custom confirmation modal
+                showSubmitConfirmModal(`Bạn còn ${unanswered} câu chưa trả lời. Bạn có chắc muốn nộp bài?`);
+            } else {
+                // All answered, ask for final confirmation
+                showSubmitConfirmModal('Bạn đã trả lời tất cả các câu hỏi. Xác nhận nộp bài?');
+            }
+        }
+
+        // Show custom submit confirmation modal
+        function showSubmitConfirmModal(message) {
+            const modal = document.getElementById('submit-confirm-modal');
+            const msgEl = document.getElementById('submit-confirm-message');
+            const cancelBtn = document.getElementById('submit-confirm-cancel');
+            const okBtn = document.getElementById('submit-confirm-ok');
+
+            msgEl.textContent = message;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+
+            // Remove previous listeners
+            const newCancelBtn = cancelBtn.cloneNode(true);
+            const newOkBtn = okBtn.cloneNode(true);
+            cancelBtn.parentNode.replaceChild(newCancelBtn, cancelBtn);
+            okBtn.parentNode.replaceChild(newOkBtn, okBtn);
+
+            // Add new listeners
+            newCancelBtn.addEventListener('click', () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            });
+
+            newOkBtn.addEventListener('click', () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                submitMockExam();
+            });
+        }
+
+        // Submit Mock Exam
+        function submitMockExam() {
+            if (timerInterval) clearInterval(timerInterval);
+            mockExamState.submitted = true;
+
+            // Calculate score
+            let correct = 0;
+            let wrong = 0;
+            let skip = 0;
+
+            mockExamState.questions.forEach(q => {
+                const userAnswer = mockExamState.userAnswers[q.id];
+                const correctAnswer = mockExamState.correctAnswers[q.id];
+
+                if (userAnswer === undefined) {
+                    skip++;
+                } else if (userAnswer === correctAnswer) {
+                    correct++;
+                } else {
+                    wrong++;
+                }
+            });
+
+            const total = mockExamState.questions.length;
+            const score = (correct / total) * 10;
+            const percentage = (correct / total) * 100;
+            const passed = percentage >= 80;
+
+            // Calculate time spent
+            const timeSpent = mockExamState.timeLimit - mockExamState.timeRemaining;
+            const minutes = Math.floor(timeSpent / 60);
+            const seconds = timeSpent % 60;
+            const timeString = `${minutes}:${String(seconds).padStart(2, '0')}`;
+
+            // Update result screen
+            document.getElementById('mock-result-icon').textContent = passed ? '🎉' : '😔';
+            document.getElementById('mock-result-status').textContent = passed ? 'ĐẠT' : 'TRƯỢT';
+            document.getElementById('mock-result-status').className = `mock-result-status ${passed ? 'pass' : 'fail'}`;
+            document.getElementById('mock-result-score').textContent = `${score.toFixed(1)}/10`;
+            document.getElementById('mock-result-detail').textContent = `${correct}/${total} câu đúng trong ${timeString}`;
+            document.getElementById('mock-stat-correct').textContent = correct;
+            document.getElementById('mock-stat-wrong').textContent = wrong;
+            document.getElementById('mock-stat-skip').textContent = skip;
+
+            // Hide exam interface, show result
+            hideMockExamInterface();
+            document.getElementById('mock-result-screen').classList.remove('hidden-important');
+
+            // Also update campaign progress
+            mockExamState.questions.forEach(q => {
+                const userAnswer = mockExamState.userAnswers[q.id];
+                const correctAnswer = mockExamState.correctAnswers[q.id];
+                if (userAnswer !== undefined) {
+                    updateProgress(q.id, userAnswer === correctAnswer);
+                }
+            });
+
+            saveMockExamState();
+        }
+
+        // Review Mock Exam
+        function reviewMockExam() {
+            document.getElementById('mock-result-screen').classList.add('hidden-important');
+            mockExamState.reviewMode = true;
+            mockExamState.currentIdx = 0;
+
+            // Show review header
+            let mockHeader = document.getElementById('mock-exam-header');
+            if (mockHeader) {
+                mockHeader.innerHTML = `
+                    <div class="mock-timer">
+                        <span>🔍</span>
+                        <span>Xem lại bài thi</span>
+                    </div>
+                    <div class="mock-progress" id="mock-progress-display">1/${mockExamState.questions.length}</div>
+                    <button onclick="exitMockExam()" class="mock-submit-btn">🏠 Thoát</button>
+                `;
+                mockHeader.style.display = 'flex';
+            }
+
+            renderMockQuestion();
+        }
+
+        // Exit Mock Exam
+        function exitMockExam() {
+            if (timerInterval) clearInterval(timerInterval);
+
+            mockExamState = {
+                active: false,
+                questions: [],
+                userAnswers: {},
+                correctAnswers: {},
+                timeLimit: 3600,
+                timeRemaining: 3600,
+                startTime: null,
+                currentIdx: 0,
+                shuffleOptions: true,
+                submitted: false,
+                reviewMode: false
+            };
+
+            localStorage.removeItem(MOCK_EXAM_KEY);
+
+            hideMockExamInterface();
+            document.getElementById('mock-result-screen').classList.add('hidden-important');
+            init();
+        }
+
+        // Save Mock Exam State to localStorage
+        function saveMockExamState() {
+            if (mockExamState.active) {
+                localStorage.setItem(MOCK_EXAM_KEY, JSON.stringify(mockExamState));
+            }
+        }
+
+        // Load Mock Exam State from localStorage
+        function loadMockExamState() {
+            const saved = localStorage.getItem(MOCK_EXAM_KEY);
+            if (saved) {
+                try {
+                    const parsed = JSON.parse(saved);
+                    if (parsed.active && !parsed.submitted) {
+                        mockExamState = parsed;
+
+                        // Recalculate time remaining based on elapsed time
+                        const elapsed = Math.floor((Date.now() - parsed.startTime) / 1000);
+                        mockExamState.timeRemaining = Math.max(0, parsed.timeLimit - elapsed);
+
+                        if (mockExamState.timeRemaining > 0) {
+                            document.getElementById('home-screen').classList.add('hidden-important');
+                            document.querySelector('.app-main').classList.remove('hidden-important');
+                            const footer = document.querySelector('.app-footer');
+                            if (footer) footer.style.display = 'none';
+                            showMockExamInterface();
+                            renderMockQuestion();
+                            updateTimerDisplay();
+                            startTimer();
+                            return true;
+                        } else {
+                            // Time expired while page was closed
+                            submitMockExam();
+                            return true;
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error loading mock exam state:', e);
+                }
+            }
+            return false;
+        }
+
+        // Check for saved mock exam on page load
+        if (!loadMockExamState()) {
+            // No saved mock exam, continue normal flow
+        }
+
+        // Close mock setup modal on background click
+        document.getElementById('mock-exam-setup').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeMockExamSetup();
+            }
+        });
+
+        // ============================================
+        // FLASHCARD FEATURE
+        // ============================================
+
+        let flashcardState = {
+            active: false,
+            mode: 'quiz', // 'quiz' or 'flashcard'
+            cards: [],
+            currentIdx: 0,
+            memorized: [],
+            forgot: [],
+            isFlipped: false
+        };
+
+        const encouragements = [
+            "Giỏi lắm! 🎉",
+            "Nhớ kỹ nhé! 💪",
+            "Tuyệt vời! ⭐",
+            "Chính xác! ✨",
+            "Xuất sắc! 🏆",
+            "Chuẩn luôn! 👏",
+            "Perfect! 💯"
+        ];
+
+        // Switch between Quiz and Flashcard mode
+        function switchMode(mode) {
+            flashcardState.mode = mode;
+
+            // Update button states
+            document.getElementById('mode-quiz').classList.toggle('active', mode === 'quiz');
+            document.getElementById('mode-flashcard').classList.toggle('active', mode === 'flashcard');
+
+            // Toggle visibility
+            const quizArea = document.getElementById('quiz-area');
+            const flashcardArea = document.getElementById('flashcard-area');
+            const footer = document.querySelector('.app-footer');
+            const appHeader = document.querySelector('.app-header'); // Get app header
+
+            if (mode === 'flashcard') {
+                quizArea.classList.add('hidden-important');
+                flashcardArea.classList.remove('hidden-important');
+                if (footer) footer.style.display = 'none';
+                if (appHeader) appHeader.style.display = 'none'; // Hide header in flashcard mode
+
+                // Initialize flashcards if not already
+                if (flashcardState.cards.length === 0) {
+                    initFlashcards();
+                }
+                renderFlashcard();
+            } else {
+                quizArea.classList.remove('hidden-important');
+                flashcardArea.classList.add('hidden-important');
+                if (footer) footer.style.display = 'block';
+                if (appHeader) appHeader.style.display = 'block'; // Show header in quiz mode
+            }
+        }
+
+        // Initialize flashcards with current exam questions
+        function initFlashcards() {
+            let sourceCards = [];
+
+            if (state.questions && state.questions.length > 0) {
+                // Use current exam questions - need to normalize
+                sourceCards = state.questions.map(q => {
+                    // Convert processed question back to simplified object for flashcard
+                    // Processed: correctKey, displayOptions (array of {key, content})
+                    // Target: answer, options (object {A:..., B:...})
+
+                    let optionsObj = {};
+                    if (q.displayOptions && Array.isArray(q.displayOptions)) {
+                        q.displayOptions.forEach(opt => {
+                            optionsObj[opt.key] = opt.content;
+                        });
+                    }
+
+                    return {
+                        id: q.id,
+                        question: q.question,
+                        answer: q.correctKey || q.answer,
+                        options: optionsObj
+                    };
+                });
+            } else {
+                // Use all questions from DB - already in correct format
+                sourceCards = [...DB];
+            }
+
+            flashcardState.cards = sourceCards;
+            flashcardState.currentIdx = 0;
+            flashcardState.memorized = [];
+            flashcardState.forgot = [];
+            flashcardState.isFlipped = false;
+            flashcardState.active = true;
+        }
+
+        function exitFlashcard(e) {
+            if (e) e.stopPropagation(); // Prevent card flip
+            switchMode('quiz');
+            init(); // Go back to Home
+        }
+
+        // Render current flashcard
+        function renderFlashcard() {
+            // Check if complete
+            if (flashcardState.cards.length === 0) {
+                showFlashcardComplete();
+                return;
+            }
+
+            // Hide complete screen if showing
+            document.getElementById('flashcard-complete').classList.add('hidden-important');
+            document.getElementById('flashcard').parentElement.style.display = 'block';
+            document.querySelector('.flashcard-nav').style.display = 'flex';
+            document.querySelector('.flashcard-progress').style.display = 'flex';
+
+            const card = flashcardState.cards[flashcardState.currentIdx];
+            if (!card) return;
+
+            // Reset flip state
+            flashcardState.isFlipped = false;
+            document.getElementById('flashcard').classList.remove('flipped');
+
+            // Update front side
+            document.getElementById('flashcard-badge').textContent = `Câu ${flashcardState.currentIdx + 1}/${flashcardState.cards.length}`;
+            document.getElementById('flashcard-question').textContent = card.question;
+
+            // Update back side
+            const correctKey = card.answer;
+            const correctContent = card.options[correctKey];
+            document.getElementById('flashcard-answer-key').textContent = correctKey;
+            document.getElementById('flashcard-answer-content').textContent = correctContent;
+
+            // Random encouragement REMOVED
+            // const randomEncouragement = encouragements[Math.floor(Math.random() * encouragements.length)];
+            // document.getElementById('flashcard-encouragement').textContent = randomEncouragement;
+
+            // Update progress
+            updateFlashcardProgress();
+        }
+
+        // Flip card animation
+        function flipCard() {
+            flashcardState.isFlipped = !flashcardState.isFlipped;
+            document.getElementById('flashcard').classList.toggle('flipped', flashcardState.isFlipped);
+        }
+
+        // Mark as forgot/not memorized - keep card in deck
+        function flashcardForgot() {
+            const card = flashcardState.cards[flashcardState.currentIdx];
+            if (!card) return;
+
+            // Add to forgot list
+            if (!flashcardState.forgot.includes(card.id)) {
+                flashcardState.forgot.push(card.id);
+            }
+
+            // Move card to end of deck
+            flashcardState.cards.push(flashcardState.cards.splice(flashcardState.currentIdx, 1)[0]);
+
+            // Don't increment index since we removed current card
+            if (flashcardState.currentIdx >= flashcardState.cards.length) {
+                flashcardState.currentIdx = 0;
+            }
+
+            renderFlashcard();
+        }
+
+        // Mark as memorized - remove card from deck
+        function flashcardMemorized() {
+            const card = flashcardState.cards[flashcardState.currentIdx];
+            if (!card) return;
+
+            // Add to memorized list
+            if (!flashcardState.memorized.includes(card.id)) {
+                flashcardState.memorized.push(card.id);
+            }
+
+            // Remove from forgot if was there
+            flashcardState.forgot = flashcardState.forgot.filter(id => id !== card.id);
+
+            // Remove card from deck
+            flashcardState.cards.splice(flashcardState.currentIdx, 1);
+
+            // Adjust index
+            if (flashcardState.currentIdx >= flashcardState.cards.length) {
+                flashcardState.currentIdx = 0;
+            }
+
+            renderFlashcard();
+        }
+
+        // Update flashcard progress display
+        function updateFlashcardProgress() {
+            document.getElementById('flashcard-remaining').textContent = flashcardState.cards.length;
+            document.getElementById('flashcard-memorized').textContent = flashcardState.memorized.length;
+            document.getElementById('flashcard-forgot').textContent = flashcardState.forgot.length;
+        }
+
+        // Show complete screen
+        function showFlashcardComplete() {
+            document.getElementById('flashcard').parentElement.style.display = 'none';
+            document.querySelector('.flashcard-nav').style.display = 'none';
+            document.querySelector('.flashcard-progress').style.display = 'none';
+            document.getElementById('flashcard-complete').classList.remove('hidden-important');
+        }
+
+        // Restart flashcards
+        function restartFlashcards() {
+            initFlashcards();
+            renderFlashcard();
+        }
+
+
+        // ============================================
+        // QUESTION LIST FEATURE
+        // ============================================
+
+        function openQuestionList() {
+            document.getElementById('home-screen').classList.add('hidden-important');
+            // Hide main app header if visible
+            const appHeader = document.querySelector('.app-header');
+            if (appHeader) appHeader.style.display = 'none';
+            // Show new question list container
+            let container = document.getElementById('question-list-screen');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'question-list-screen';
+                container.className = 'absolute inset-0 z-[100] bg-gray-50 overflow-y-auto p-4';
+                container.innerHTML = `
+                    <div class="max-w-3xl mx-auto">
+                        <header class="flex justify-between items-center mb-6 sticky top-0 bg-gray-50 py-4 z-10 border-b">
+                            <h2 class="text-2xl font-bold text-gray-800">📚 Danh sách câu hỏi (${DB.length})</h2>
+                            <button onclick="closeQuestionList()" class="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 font-semibold">
+                                🏠 Quay lại
+                            </button>
+                        </header>
+                        <div id="question-list-content" class="space-y-6 pb-20"></div>
+                    </div>
+                `;
+                document.body.appendChild(container);
+            }
+            container.classList.remove('hidden-important');
+            renderQuestionList();
+        }
+
+        function closeQuestionList() {
+            const container = document.getElementById('question-list-screen');
+            if (container) container.classList.add('hidden-important');
+            document.getElementById('home-screen').classList.remove('hidden-important');
+            // Show main app header if needed, but we are going to home which covers it.
+        }
+
+        function renderQuestionList() {
+            const listContent = document.getElementById('question-list-content');
+            if (!listContent) return;
+
+            // Render all questions - simple implementation
+            // For better performance with 340 items it's okay to render all at once or simple chunking.
+            // Let's render all since 340 is small enough.
+            listContent.innerHTML = DB.map((q, index) => {
+                let optionsHtml = '';
+                const keys = ['A', 'B', 'C', 'D'];
+                keys.forEach(key => {
+                    const isCorrect = key === q.answer;
+                    const optionClass = isCorrect ? 'bg-green-100 border-green-500 text-green-900 font-medium' : 'bg-white border-gray-200 text-gray-700';
+                    const icon = isCorrect ? '✅ ' : '';
+                    optionsHtml += `
+                        <div class="p-3 border rounded-lg ${optionClass} text-sm">
+                            <span class="font-bold mr-2">${key}.</span> ${q.options[key]} ${icon}
+                        </div>
+                    `;
+                });
+
+                return `
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
+                        <div class="flex gap-3 mb-3">
+                            <span class="bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded h-fit whitespace-nowrap">Câu ${index + 1}</span>
+                            <h3 class="font-medium text-gray-900 text-base leading-relaxed">${q.question}</h3>
+                        </div>
+                        <div class="space-y-2 pl-2">
+                            ${optionsHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
 
     </script>
 </body>
