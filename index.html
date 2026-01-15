@@ -3315,16 +3315,19 @@
                 mockHeader = document.createElement('header');
                 mockHeader.id = 'mock-exam-header';
                 mockHeader.className = 'mock-exam-header';
-                mockHeader.innerHTML = `
-                    <div class="mock-timer" id="mock-timer">
-                        <span class="mock-timer-icon">⏱️</span>
-                        <span id="mock-timer-display">60:00</span>
-                    </div>
-                    <div class="mock-progress" id="mock-progress-display">1/${mockExamState.questions.length}</div>
-                    <button onclick="confirmSubmitMockExam()" class="mock-submit-btn">📝 NỘP BÀI</button>
-                `;
                 document.body.insertBefore(mockHeader, document.querySelector('main'));
             }
+
+            // Always update header content to ensure correct buttons are shown
+            // (fixes bug where "Thoát" button persists after reviewing a previous exam)
+            mockHeader.innerHTML = `
+                <div class="mock-timer" id="mock-timer">
+                    <span class="mock-timer-icon">⏱️</span>
+                    <span id="mock-timer-display">60:00</span>
+                </div>
+                <div class="mock-progress" id="mock-progress-display">1/${mockExamState.questions.length}</div>
+                <button onclick="confirmSubmitMockExam()" class="mock-submit-btn">📝 NỘP BÀI</button>
+            `;
             mockHeader.style.display = 'flex';
         }
 

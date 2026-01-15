@@ -1,115 +1,61 @@
-HỒ SƠ TÁC CHIẾN: EDU-SUPPORT (PHIÊN BẢN ĐẶC BIỆT DÀNH CHO VỢ)
+HỒ SƠ CHUYÊN ÁN: EDU-SUPPORT (PHÂN HỆ ĐẤU THẦU 2025) - PHIÊN BẢN LIGHT
 
+1. TỔNG QUAN (OVERVIEW)
 
-Công nghệ: HTML5, Tailwind CSS (CDN), Javascript thuần (Vanilla JS).
-Mô hình: Single Page Application (1 file HTML duy nhất + thư mục assets).
+Tên dự án: Ứng dụng Ôn thi Chứng chỉ Đấu thầu 2025.
 
-1. MỤC TIÊU CHIẾN LƯỢC
+Mục tiêu: Giúp vợ đồng chí Vi Phương ôn tập 340 câu hỏi trắc nghiệm mọi lúc, mọi nơi trên nền tảng Web.
 
-Xây dựng một ứng dụng web chạy trên trình duyệt (PC/Mobile) giúp Vợ ôn thi 340 câu trắc nghiệm đấu thầu.
-Tiêu chí: "Học là Đỗ - Vui là Chính - Nịnh là Chủ yếu".
+Đặc thù: "Đánh nhanh thắng nhanh", đơn giản, hiệu quả, chạy trên mọi trình duyệt.
 
-2. CẤU TRÚC DỮ LIỆU & TÀI NGUYÊN (ASSETS)
+2. YÊU CẦU DỮ LIỆU (DATA REQUIREMENTS)
 
-Đơn vị thi công (Coder) cần đảm bảo code trỏ đúng các file sau:
+Nguồn: File Excel 340 cau thi CCNV Dau thau 2025.xlsm.
 
-Dữ liệu: Biến const examData = [...] chứa 340 câu hỏi (ID, Question, Options A/B/C/D, Answer, Explanation).
+Định dạng đầu ra: Mảng dữ liệu Javascript (Array of Objects) nhúng thẳng vào file HTML.
 
-Âm thanh: File podcast.mp3 (Lời dặn dò/Nhạc nền) - nằm cùng cấp với index.html.
+3. TÍNH NĂNG NGHIỆP VỤ (KEY FEATURES)
 
-Hình ảnh:
+3.1. Chế độ Luyện tập (Practice Mode)
 
-tro-ly-shopee.png (Ảnh con trai làm trợ lý).
+Giao diện thẻ bài (Card style).
 
-infographic.jpg (Ảnh sơ đồ tư duy/bí kíp).
+Hiển thị câu hỏi và 4 đáp án.
 
-3. DANH SÁCH TÍNH NĂNG (FEATURE LIST)
+Cơ chế phản hồi:
 
-3.1. Phân hệ "Dân Vận" (Welcome & Motivation)
+Chọn đúng: Nổi màu xanh, tự động chuyển câu sau 1 giây.
 
-Modal Chào mừng (Hóa đơn tình yêu):
+Chọn sai: Nổi màu đỏ, hiện ngay đáp án đúng.
 
-Tự động hiện khi vào trang.
+Nút điều hướng: Trước/Sau/Đi đến câu số X.
 
-Nội dung: "Sản phẩm này được thiết kế bởi vô vàn yêu thương... nếu Vợ muốn định giá thì là 2 củ nhé!".
+3.2. Tiện ích (Utilities)
 
-Nút bấm: "Đồng ý thanh toán 💋".
+Lưu vết (Auto-save): Tự động nhớ câu đang làm dở (LocalStorage).
 
-Trợ lý Shopee (Floating Button):
+Reset: Nút xóa lịch sử để học lại từ đầu.
 
-Vị trí: Góc dưới bên phải.
+Responsive: Tối ưu hiển thị to, rõ trên điện thoại di động.
 
-Icon: Ảnh tròn (shopee.jpg) có hiệu ứng rung nhẹ.
+4. YÊU CẦU KỸ THUẬT (TECH STACK)
 
-Tooltip: "Có gì khó thì hỏi Shopee".
+Nền tảng: Web tĩnh (Static Web).
 
-Hành động: Bấm vào mở link NotebookLM (New Tab).
+Ngôn ngữ: HTML5, CSS3 (dùng Tailwind CDN), Javascript thuần (Vanilla JS).
 
-3.2. Phân hệ Ôn tập (Core Learning)
+Cấu trúc: Single File (Tất cả code nằm trong index.html).
 
-Chế độ Trắc nghiệm (Practice Mode):
+Hạ tầng (Infrastructure):
 
-Hiển thị câu hỏi + 4 đáp án.
+Repository: https://github.com/vi-phuong-158/cap-chung-chi
 
-Chọn đúng: Xanh lá, hiện lời khen.
+Deployment: GitHub Pages (Kích hoạt từ repository trên).
 
-Chọn sai: Đỏ, hiện đáp án đúng.
+5. LỘ TRÌNH TRIỂN KHAI
 
-Lưu tiến độ tự động vào localStorage.
+Task 1: Viết công cụ chuyển đổi Excel sang Javascript Data. (Đã hoàn thành tool Python).
 
-Chế độ Thẻ ghi nhớ (Flashcard Mode):
+Task 2: Xây dựng index.html hoàn chỉnh với tính năng luyện tập. (Đã có code).
 
-Nút chuyển đổi [Trắc nghiệm] <-> [Flashcard].
-
-Giao diện thẻ 3D. Click vào thẻ để lật mặt sau xem đáp án.
-
-Chế độ Thi thử (Mock Exam):
-
-Cấu hình: Chọn số câu (ví dụ 50), thời gian (60 phút).
-
-Có đồng hồ đếm ngược.
-
-Nộp bài mới biết điểm (Đạt/Trượt).
-
-3.3. Phân hệ Tiện ích (Utilities)
-
-Đài phát thanh (Podcast Player):
-
-Nút icon tai nghe góc trái.
-
-Bấm vào hiện trình phát mini.
-
-Nguồn: File podcast.mp3 (Hosted cùng code).
-
-Phòng Tham mưu (Infographic Viewer):
-
-Nút "Bí kíp/Sơ đồ" trên thanh Header.
-
-Bấm vào hiện Modal xem ảnh infographic.jpg toàn màn hình (có thể zoom/cuộn).
-
-Bản đồ chiến dịch (Review Dashboard):
-
-Hiển thị lưới 340 ô vuông.
-
-Màu sắc: Xanh (Đúng), Đỏ (Sai), Xám (Chưa làm).
-
-Bấm vào ô nào nhảy đến câu đó.
-
-4. YÊU CẦU GIAO DIỆN (UI/UX)
-
-Màu sắc chủ đạo: Tông màu dễ chịu, điểm xuyết màu Hồng/Đỏ (Tình yêu) và Xanh dương (Tri thức).
-
-Responsive: Bắt buộc hiển thị đẹp trên điện thoại (để nằm học trên giường).
-
-Hiệu ứng: Sử dụng Tailwind CSS để làm các hiệu ứng chuyển động mượt mà (Modal fade-in, Card flip, Button hover).
-
-5. LƯU Ý KỸ THUẬT (DÀNH CHO CODER)
-
-Tuyệt đối KHÔNG dùng Backend/Database phức tạp. Sử dụng localStorage để lưu lịch sử làm bài.
-
-Code toàn bộ Logic (JS) và Style (CSS) gói gọn trong file HTML hoặc tách ra tối đa 3 file (index.html, style.css, script.js) để dễ deploy lên GitHub Pages.
-
-Xử lý logic "Trộn đề thi" (Shuffle) cẩn thận để không bị sai lệch đáp án.
-
-HẾT HỒ SƠ.
-Đề nghị đơn vị thi công thực hiện chính xác các hạng mục trên.
+Task 3: Đẩy code lên GitHub vi-phuong-158/cap-chung-chi và kích hoạt GitHub Pages để vợ đồng chí truy cập.
